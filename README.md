@@ -28,7 +28,9 @@ should answer simple public-interest questions:
 ## Current Records
 
 - City of Coeur d'Alene Industrial Standpipe near Hanley Ave and N Carrington
-  Ln.
+  Ln. See the
+  [`Industrial Standpipe research coverage`](docs/INDUSTRIAL_STANDPIPE_RESEARCH.md)
+  log for captured facts, source classes checked, and known gaps.
 
 ## Candidate Layer
 
