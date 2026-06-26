@@ -2,8 +2,95 @@
   "schemaVersion": 1,
   "projects": [
     {
+      "id": "cda-industrial-standpipe-recoating-2017-2018",
+      "name": "Industrial Standpipe recoating/painting",
+      "projectType": "rehabilitation",
+      "structureIds": ["cda-industrial-standpipe"],
+      "operatorId": "city-of-coeur-dalene-water",
+      "status": "historical",
+      "dateDisplay": "2017/2018",
+      "costDisplay": "public records indicate approximately $77,461 for awarded painting/recoating work",
+      "contractor": "T. Bailey, Inc.",
+      "engineer": "Welch Comer",
+      "sourceIds": [
+        "cdapress-2017-11-24-industrial-standpipe-recoating",
+        "cda-council-minutes-2018-02-06",
+        "cda-council-packet-2018-02-20"
+      ],
+      "publicNotes": [
+        "Public notices and council records describe an Industrial Standpipe recoating/painting project.",
+        "Keep project notes at the public bid/award level; do not publish detailed site access or operational implementation details."
+      ],
+      "openQuestions": [
+        "Confirm final completion date and final cost from an accessible public closeout or council record."
+      ]
+    },
+    {
+      "id": "cda-transmission-line-northern-section-2020",
+      "name": "Huetter Well to Industrial Standpipe transmission-line northern section",
+      "projectType": "transmission main",
+      "structureIds": ["cda-industrial-standpipe"],
+      "operatorId": "city-of-coeur-dalene-water",
+      "status": "historical public bid notice",
+      "dateDisplay": "2020",
+      "costDisplay": "unknown",
+      "contractor": "unknown",
+      "engineer": "unknown",
+      "sourceIds": [
+        "cdapress-2020-08-07-legals",
+        "cdapress-2020-08-14-legals",
+        "cda-council-packet-2020-09-01"
+      ],
+      "publicNotes": [
+        "Public legal notices describe a transmission-line project connecting Huetter Well infrastructure and the Industrial Standpipe area.",
+        "The dataset does not include construction access details or exact operational routing beyond public project context."
+      ],
+      "openQuestions": [
+        "Find final award, completion, and as-built public summaries if available."
+      ]
+    },
+    {
+      "id": "cda-prairie-transmission-main-award-2020",
+      "name": "Prairie Transmission Main construction award",
+      "projectType": "construction award",
+      "structureIds": ["cda-industrial-standpipe"],
+      "operatorId": "city-of-coeur-dalene-water",
+      "status": "historical public award record",
+      "dateDisplay": "2020-09-01",
+      "costDisplay": "$328,248.51",
+      "contractor": "Northwest Grading Inc.",
+      "engineer": "unknown",
+      "sourceIds": ["cda-council-packet-2020-09-01"],
+      "publicNotes": [
+        "Public packet search result describes a construction contract award for a transmission main moving water from Huetter Well toward the Industrial Standpipe.",
+        "The project context is included for civic infrastructure history; the dataset avoids detailed access and operational instructions."
+      ],
+      "openQuestions": [
+        "Review the full packet directly for final page references and completion status."
+      ]
+    },
+    {
+      "id": "cda-northwest-water-system-improvements-2020",
+      "name": "Northwest Water System Improvements planning",
+      "projectType": "capital improvement planning",
+      "structureIds": ["cda-industrial-standpipe"],
+      "operatorId": "city-of-coeur-dalene-water",
+      "status": "historical public planning record",
+      "dateDisplay": "2020",
+      "costDisplay": "unknown",
+      "contractor": "unknown",
+      "engineer": "unknown",
+      "sourceIds": ["cda-council-packet-2020-04-21"],
+      "publicNotes": [
+        "Public packet materials describe northwest water-system improvements involving Huetter Well field infrastructure and connection toward the Industrial Standpipe."
+      ],
+      "openQuestions": [
+        "Identify final project scope and any non-sensitive public completion records."
+      ]
+    },
+    {
       "id": "cda-industrial-standpipe-source-replacement",
-      "name": "Industrial Standpipe source replacement research",
+      "name": "Industrial Standpipe source-link quality cleanup",
       "projectType": "data quality",
       "structureIds": ["cda-industrial-standpipe"],
       "operatorId": "city-of-coeur-dalene-water",
@@ -13,16 +100,17 @@
       "contractor": "not applicable",
       "engineer": "not applicable",
       "sourceIds": [
-        "cda-2012-water-plan-public-url-needed",
-        "cda-council-minutes-2018-02-06-public-url-needed",
-        "cda-council-packet-2016-05-03-public-url-needed"
+        "cda-2012-water-plan",
+        "cda-council-minutes-2018-02-06",
+        "cda-council-packet-2018-02-20",
+        "cda-council-packet-2016-05-03"
       ],
       "publicNotes": [
-        "Find stable accessible public URLs or archived copies for currently inaccessible city source citations."
+        "City PDF URLs are useful public citations but have shown intermittent direct-access failures. Find stable accessible URLs or archive links where legally appropriate."
       ],
       "openQuestions": [
         "Can the pressure-zone boundary map be sourced from a public, accessible city document?",
-        "Are there public bid, construction, or rehabilitation records with non-sensitive details?"
+        "Can public source PDFs be archived or mirrored under acceptable reuse terms?"
       ]
     }
   ]

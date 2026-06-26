@@ -2,51 +2,84 @@
   "schemaVersion": 1,
   "sources": [
     {
-      "id": "cda-2012-water-plan-public-url-needed",
+      "id": "cda-2012-water-plan",
       "title": "City of Coeur d'Alene 2012 Water System Comprehensive Plan Update",
       "sourceType": "water system plan",
       "publisher": "City of Coeur d'Alene",
       "publicationDate": "2012",
-      "url": "",
+      "url": "https://www.cdaid.org/files/Water/Comp%20Plan%20Update_FINAL.pdf",
       "archiveUrl": "",
       "accessedAt": "2026-06-26",
-      "linkStatus": "needs replacement",
-      "licenseNotes": "Public-document status needs reconfirmation from an accessible URL.",
-      "relevantPages": [],
+      "linkStatus": "intermittent",
+      "licenseNotes": "Public city planning document; cite rather than mirror until reuse terms are reviewed.",
+      "relevantPages": ["5-13", "5-17", "5-18", "5-20"],
       "notes": [
-        "Previously cited city PDF URL is currently inaccessible for some clients."
+        "Public search/browser access succeeded during research, but direct HTTP access has returned 404 for some clients.",
+        "Use for capacity, height, pressure zone, condition, PWS ID, and system context."
       ]
     },
     {
-      "id": "cda-council-minutes-2018-02-06-public-url-needed",
+      "id": "cda-council-minutes-2018-02-06",
       "title": "City Council Minutes, 2018-02-06",
       "sourceType": "council minutes",
       "publisher": "City of Coeur d'Alene",
       "publicationDate": "2018-02-06",
-      "url": "",
+      "url": "https://www.cdaid.org/files/Council/Minutes/Minutes020618.pdf",
       "archiveUrl": "",
       "accessedAt": "2026-06-26",
-      "linkStatus": "needs replacement",
-      "licenseNotes": "Public-document status needs reconfirmation from an accessible URL.",
+      "linkStatus": "intermittent",
+      "licenseNotes": "Public city meeting record; cite rather than mirror until reuse terms are reviewed.",
       "relevantPages": [],
       "notes": [
-        "Previously cited city PDF URL is currently inaccessible for some clients."
+        "Used for Industrial Standpipe recoating award context and 2000 construction-year reference."
       ]
     },
     {
-      "id": "cda-council-packet-2016-05-03-public-url-needed",
+      "id": "cda-council-packet-2018-02-20",
+      "title": "City Council Packet, 2018-02-20",
+      "sourceType": "council packet",
+      "publisher": "City of Coeur d'Alene",
+      "publicationDate": "2018-02-20",
+      "url": "https://www.cdaid.org/files/Council/Packets/2018/Packet022018.pdf",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-26",
+      "linkStatus": "intermittent",
+      "licenseNotes": "Public city meeting packet; cite rather than mirror until reuse terms are reviewed.",
+      "relevantPages": [],
+      "notes": [
+        "Used for Industrial Standpipe history, purpose, and recoating/painting context."
+      ]
+    },
+    {
+      "id": "cda-council-packet-2016-05-03",
       "title": "City Council Packet, 2016-05-03",
       "sourceType": "council packet",
       "publisher": "City of Coeur d'Alene",
       "publicationDate": "2016-05-03",
-      "url": "",
+      "url": "https://www.cdaid.org/Files/Council/Packets/2016/Packet050316Optmized.pdf",
       "archiveUrl": "",
       "accessedAt": "2026-06-26",
-      "linkStatus": "needs replacement",
-      "licenseNotes": "Public-document status needs reconfirmation from an accessible URL.",
+      "linkStatus": "intermittent",
+      "licenseNotes": "Public city meeting packet; cite rather than mirror until reuse terms are reviewed.",
       "relevantPages": [],
       "notes": [
-        "Previously cited city PDF URL is currently inaccessible for some clients."
+        "Previously cited for communications co-location context. Keep high-level only; do not publish operational/security details."
+      ]
+    },
+    {
+      "id": "cdapress-2017-11-24-industrial-standpipe-recoating",
+      "title": "Coeur d'Alene Press legal notice, 2017-11-24",
+      "sourceType": "legal notice",
+      "publisher": "Coeur d'Alene Press",
+      "publicationDate": "2017-11-24",
+      "url": "https://cdapress.com/news/2017/nov/24/legals-november-24-2017-5/",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-26",
+      "linkStatus": "live",
+      "licenseNotes": "Citation only; source material retains publisher terms.",
+      "relevantPages": [],
+      "notes": [
+        "Used for public bid notice context on the 2017 Industrial Standpipe recoating project."
       ]
     },
     {
@@ -61,7 +94,89 @@
       "linkStatus": "live",
       "licenseNotes": "Citation only; source material retains publisher terms.",
       "relevantPages": [],
-      "notes": []
+      "notes": [
+        "Used for public bid notice context on Huetter Well to Industrial Standpipe transmission-line work."
+      ]
+    },
+    {
+      "id": "cdapress-2020-08-14-legals",
+      "title": "Coeur d'Alene Press legal notice, 2020-08-14",
+      "sourceType": "legal notice",
+      "publisher": "Coeur d'Alene Press",
+      "publicationDate": "2020-08-14",
+      "url": "https://cdapress.com/news/2020/aug/14/5-legals-for-august-14-2020/",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-26",
+      "linkStatus": "live",
+      "licenseNotes": "Citation only; source material retains publisher terms.",
+      "relevantPages": [],
+      "notes": [
+        "Used as a second public bid notice for the Huetter Well to Industrial Standpipe transmission-line work."
+      ]
+    },
+    {
+      "id": "cda-council-packet-2020-04-21",
+      "title": "City Council Packet, 2020-04-21",
+      "sourceType": "council packet",
+      "publisher": "City of Coeur d'Alene",
+      "publicationDate": "2020-04-21",
+      "url": "https://www.cdaid.org/files/Council/Packets/Packet042120.pdf",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-26",
+      "linkStatus": "intermittent",
+      "licenseNotes": "Public city meeting packet; cite rather than mirror until reuse terms are reviewed.",
+      "relevantPages": [],
+      "notes": [
+        "Used for Northwest Water System Improvements context, including Huetter Well field and Industrial Standpipe connection planning."
+      ]
+    },
+    {
+      "id": "cda-council-packet-2020-09-01",
+      "title": "City Council Packet, 2020-09-01",
+      "sourceType": "council packet",
+      "publisher": "City of Coeur d'Alene",
+      "publicationDate": "2020-09-01",
+      "url": "https://www.cdaid.org/files/Council/Packet090120.pdf",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-26",
+      "linkStatus": "intermittent",
+      "licenseNotes": "Public city meeting packet; cite rather than mirror until reuse terms are reviewed.",
+      "relevantPages": [],
+      "notes": [
+        "Used for Prairie Transmission Main award context, including low bid and contractor."
+      ]
+    },
+    {
+      "id": "cda-water-department-page",
+      "title": "City of Coeur d'Alene Water Department",
+      "sourceType": "utility webpage",
+      "publisher": "City of Coeur d'Alene",
+      "publicationDate": "",
+      "url": "https://www.cdaid.org/water",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-26",
+      "linkStatus": "live",
+      "licenseNotes": "Citation only; page content retains city website terms.",
+      "relevantPages": [],
+      "notes": [
+        "Used for public utility context, water-source overview, wells, system capacity, storage, accounts, and staffing."
+      ]
+    },
+    {
+      "id": "idaho-deq-pws-list-2026",
+      "title": "Idaho DEQ public water system list",
+      "sourceType": "state public water system list",
+      "publisher": "Idaho Department of Environmental Quality",
+      "publicationDate": "2026",
+      "url": "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/24778",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-26",
+      "linkStatus": "live",
+      "licenseNotes": "Public state agency record; cite rather than mirror until reuse terms are reviewed.",
+      "relevantPages": [],
+      "notes": [
+        "Search result text confirms ID1280053 COEUR D ALENE CITY OF, community system, population 54,115, and 20,174 connections."
+      ]
     },
     {
       "id": "field-observation-2026-06-14",

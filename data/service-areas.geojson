@@ -8,16 +8,37 @@
       "properties": {
         "name": "Coeur d'Alene Upper Pressure Zone",
         "ownerOperator": "City of Coeur d'Alene Water Department",
+        "operatorId": "city-of-coeur-dalene-water",
         "areaType": "Pressure zone",
         "geometryConfidence": "not digitized",
-        "sourceBasis": "Needs an accessible public URL before this service-area record should be treated as fully sourced. City PDF citations found during research currently return 404 for some clients.",
+        "sourceBasis": "City water plan and 2018 council records identify the Industrial Standpipe's relationship to the Upper Pressure Zone. No public drawable pressure-zone polygon has been added.",
         "relatedTowerIds": ["cda-industrial-standpipe"],
-        "publicNotes": [
-          "Working note: city records found during research identify the Industrial Standpipe with the Upper Pressure Zone, but the direct public PDF links are not currently reliable.",
-          "No accessible public pressure-zone polygon has been added yet.",
-          "Find or archive an accessible public source before expanding this into a drawable service-area boundary."
+        "publicWaterSystemIds": ["ID1280053"],
+        "sourceIds": [
+          "cda-2012-water-plan",
+          "cda-council-minutes-2018-02-06",
+          "cda-council-packet-2018-02-20"
         ],
-        "sources": []
+        "publicNotes": [
+          "The Industrial Standpipe is documented as a steel standpipe on the Upper Pressure Zone.",
+          "The Upper Pressure Zone relationship is source-backed, but the pressure-zone boundary itself has not been digitized.",
+          "No accessible public pressure-zone polygon has been added yet.",
+          "Find a public, non-restricted pressure-zone/service-area map before expanding this into a drawable boundary."
+        ],
+        "sources": [
+          {
+            "label": "City of Coeur d'Alene 2012 Water System Comprehensive Plan Update",
+            "url": "https://www.cdaid.org/files/Water/Comp%20Plan%20Update_FINAL.pdf"
+          },
+          {
+            "label": "City Council Minutes, 2018-02-06",
+            "url": "https://www.cdaid.org/files/Council/Minutes/Minutes020618.pdf"
+          },
+          {
+            "label": "City Council Packet, 2018-02-20",
+            "url": "https://www.cdaid.org/files/Council/Packets/2018/Packet022018.pdf"
+          }
+        ]
       }
     }
   ]

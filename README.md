@@ -114,7 +114,9 @@ Important fields:
 ## Contributing
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the field-verification workflow,
-data standards, and safety rules.
+data standards, and safety rules. Use the
+[`Field Visit Checklist`](docs/FIELD_CHECKLIST.md) before visiting candidate
+locations.
 
 ## License
 

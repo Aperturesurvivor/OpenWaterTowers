@@ -7,10 +7,16 @@
       "type": "municipal water utility",
       "jurisdiction": "Coeur d'Alene, Idaho",
       "website": "https://www.cdaid.org/",
-      "publicWaterSystemIds": [],
-      "sourceIds": [],
+      "publicWaterSystemIds": ["ID1280053"],
+      "sourceIds": [
+        "cda-water-department-page",
+        "cda-2012-water-plan"
+      ],
       "notes": [
-        "Public water system IDs and stable department URLs still need verification from accessible public sources."
+        "City Water Department page identifies the Rathdrum Prairie aquifer as the present sole source of water.",
+        "2012 water plan identifies the City-operated public water system as PWS ID1280053.",
+        "City Water Department page states the system has 11 wells, more than 42 million gallons per day pump capacity, approximately 6 million gallons of storage, over 20,000 active accounts, and 26 full-time employees.",
+        "Idaho DEQ public water system list identifies COEUR D ALENE CITY OF as a community system serving 54,115 people with 20,174 connections."
       ]
     }
   ]

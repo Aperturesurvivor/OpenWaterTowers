@@ -19,6 +19,9 @@ towers, standpipes, tanks, and related public water storage landmarks.
 
 ## Field Rules
 
+Use [`docs/FIELD_CHECKLIST.md`](docs/FIELD_CHECKLIST.md) before visiting a
+candidate location.
+
 - Stay on public roads, sidewalks, trails, parks, or other lawful public access
   points.
 - Do not trespass, cross fences, enter utility property, or bypass access

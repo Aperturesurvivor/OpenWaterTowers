@@ -20,7 +20,7 @@
         "country": "United States",
         "operatorId": "city-of-coeur-dalene-water",
         "ownerOperator": "City of Coeur d'Alene Water Department",
-        "publicWaterSystemIds": [],
+        "publicWaterSystemIds": ["ID1280053"],
         "structureType": "Steel standpipe",
         "structureCategory": "standpipe",
         "materials": ["steel"],
@@ -34,18 +34,35 @@
         "baseElevationFeetMsl": null,
         "overflowElevationFeetMsl": 2430.5,
         "constructedDisplay": "1999/2000",
-        "constructedNote": "2012 water plan says 1999; 2018 council minutes say 2000.",
+        "constructedNote": "2012 water plan says 1999; 2018 council minutes and packet say 2000.",
         "engineer": "unknown",
         "contractor": "unknown",
         "fabricator": "unknown",
         "paintCoatingHistory": [],
-        "rehabilitationHistory": [],
-        "projectIds": ["cda-industrial-standpipe-source-replacement"],
+        "rehabilitationHistory": [
+          {
+            "dateDisplay": "2017/2018",
+            "summary": "Industrial Standpipe recoating/painting project publicly bid in late 2017 and approved by council in 2018."
+          }
+        ],
+        "projectIds": [
+          "cda-industrial-standpipe-recoating-2017-2018",
+          "cda-transmission-line-northern-section-2020",
+          "cda-prairie-transmission-main-award-2020",
+          "cda-northwest-water-system-improvements-2020",
+          "cda-industrial-standpipe-source-replacement"
+        ],
         "sourceIds": [
-          "cda-2012-water-plan-public-url-needed",
-          "cda-council-minutes-2018-02-06-public-url-needed",
-          "cda-council-packet-2016-05-03-public-url-needed",
+          "cda-2012-water-plan",
+          "cda-council-minutes-2018-02-06",
+          "cda-council-packet-2018-02-20",
+          "cda-council-packet-2016-05-03",
+          "cdapress-2017-11-24-industrial-standpipe-recoating",
           "cdapress-2020-08-07-legals",
+          "cdapress-2020-08-14-legals",
+          "cda-council-packet-2020-04-21",
+          "cda-council-packet-2020-09-01",
+          "cda-water-department-page",
           "field-observation-2026-06-14"
         ],
         "photoIds": ["cda-industrial-standpipe-2026-06-14"],
@@ -53,6 +70,19 @@
           "claim-cda-industrial-standpipe-capacity",
           "claim-cda-industrial-standpipe-height",
           "claim-cda-industrial-standpipe-pressure-zone",
+          "claim-cda-industrial-standpipe-constructed-1999",
+          "claim-cda-industrial-standpipe-constructed-2000",
+          "claim-cda-industrial-standpipe-condition-2012",
+          "claim-cda-industrial-standpipe-paint-color",
+          "claim-cda-industrial-standpipe-recoating-project",
+          "claim-cda-industrial-standpipe-transmission-main-2020",
+          "claim-cda-prairie-transmission-main-award-2020",
+          "claim-cda-water-pws-id",
+          "claim-cda-water-source-aquifer",
+          "claim-cda-water-system-population-served-deq",
+          "claim-cda-water-system-connections-deq",
+          "claim-cda-water-system-storage",
+          "claim-cda-water-system-active-accounts",
           "claim-cda-industrial-standpipe-observed"
         ],
         "status": "Field observed; public records matched",
@@ -62,36 +92,46 @@
         "photoCredit": "Josiah Wilson, public roadside observation",
         "publicNotes": [
           "Light blue cylindrical steel standpipe visible from public roadway.",
-          "Working note: city records found during research describe the tank as serving the Upper Pressure Zone, but the direct city PDF URLs need accessible replacements.",
+          "Public city records describe the tank as serving the Upper Pressure Zone.",
+          "2012 water plan describes the tank as being at the northwest boundary of the city and in excellent condition at that time.",
+          "2018 council records describe the standpipe as supporting northwest-corridor growth, pump-failure reserve capacity, and fire-flow reserve for the Upper Pressure Zone.",
+          "2020 public bid notices and council packet materials describe transmission-main work connecting Huetter Well infrastructure to the Industrial Standpipe area.",
           "Telecom equipment is co-located on the structure; public map omits operational details."
         ],
         "openQuestions": [
-          "Find accessible public replacement URLs for the city water plan, 2018 council minutes, and 2016 council packet.",
           "Find an accessible public pressure-zone map or service-area polygon.",
           "Confirm public water system ID, base elevation, diameter, engineer, contractor, and fabricator."
         ],
         "dataQuality": {
           "lastReviewed": "2026-06-26",
-          "reviewStatus": "needs source-link cleanup",
+          "reviewStatus": "expanded public-source pass complete; pressure-zone geometry still open",
           "sensitiveDataReviewed": true,
           "geometryConfidence": "field observed approximate point"
         },
         "sources": [
           {
-            "label": "City of Coeur d'Alene 2012 Water System Comprehensive Plan Update (public URL needed)",
-            "url": ""
+            "label": "City of Coeur d'Alene 2012 Water System Comprehensive Plan Update",
+            "url": "https://www.cdaid.org/files/Water/Comp%20Plan%20Update_FINAL.pdf"
           },
           {
-            "label": "City Council Minutes, 2018-02-06 (public URL needed)",
-            "url": ""
+            "label": "City Council Minutes, 2018-02-06",
+            "url": "https://www.cdaid.org/files/Council/Minutes/Minutes020618.pdf"
           },
           {
-            "label": "City Council Packet, 2016-05-03 (public URL needed)",
-            "url": ""
+            "label": "City Council Packet, 2018-02-20",
+            "url": "https://www.cdaid.org/files/Council/Packets/2018/Packet022018.pdf"
+          },
+          {
+            "label": "Coeur d'Alene Press legal notice, 2017-11-24",
+            "url": "https://cdapress.com/news/2017/nov/24/legals-november-24-2017-5/"
           },
           {
             "label": "Coeur d'Alene Press legal notice, 2020-08-07",
             "url": "https://cdapress.com/news/2020/aug/07/5-legals-for-august-7-2020/"
+          },
+          {
+            "label": "Coeur d'Alene Press legal notice, 2020-08-14",
+            "url": "https://cdapress.com/news/2020/aug/14/5-legals-for-august-14-2020/"
           },
           {
             "label": "Field photos, 2026-06-14",

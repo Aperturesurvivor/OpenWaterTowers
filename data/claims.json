@@ -8,11 +8,13 @@
       "field": "capacityGallons",
       "value": 2000000,
       "unit": "gallons",
-      "confidence": "needs accessible source replacement",
-      "sourceIds": ["cda-2012-water-plan-public-url-needed"],
-      "quoteOrSummary": "Working dataset value: 2.0 million gallons.",
-      "reviewStatus": "needs source-link cleanup",
-      "notes": []
+      "confidence": "source-backed",
+      "sourceIds": ["cda-2012-water-plan"],
+      "quoteOrSummary": "2012 water plan table lists the Industrial Standpipe capacity as 2.0 million gallons.",
+      "reviewStatus": "reviewed",
+      "notes": [
+        "Direct city PDF URL may be intermittently inaccessible; retain source but seek stable archive URL."
+      ]
     },
     {
       "id": "claim-cda-industrial-standpipe-height",
@@ -21,11 +23,13 @@
       "field": "heightFeet",
       "value": 160,
       "unit": "feet",
-      "confidence": "needs accessible source replacement",
-      "sourceIds": ["cda-2012-water-plan-public-url-needed"],
-      "quoteOrSummary": "Working dataset value: 160 ft.",
-      "reviewStatus": "needs source-link cleanup",
-      "notes": []
+      "confidence": "source-backed",
+      "sourceIds": ["cda-2012-water-plan"],
+      "quoteOrSummary": "2012 water plan table lists the Industrial Standpipe height as 160 ft.",
+      "reviewStatus": "reviewed",
+      "notes": [
+        "Direct city PDF URL may be intermittently inaccessible; retain source but seek stable archive URL."
+      ]
     },
     {
       "id": "claim-cda-industrial-standpipe-pressure-zone",
@@ -34,13 +38,214 @@
       "field": "pressureZone",
       "value": "Upper Pressure Zone",
       "unit": "",
-      "confidence": "needs accessible source replacement",
+      "confidence": "source-backed",
       "sourceIds": [
-        "cda-2012-water-plan-public-url-needed",
-        "cda-council-minutes-2018-02-06-public-url-needed"
+        "cda-2012-water-plan",
+        "cda-council-minutes-2018-02-06",
+        "cda-council-packet-2018-02-20"
       ],
-      "quoteOrSummary": "Working dataset relationship: Industrial Standpipe is associated with the Upper Pressure Zone.",
-      "reviewStatus": "needs source-link cleanup",
+      "quoteOrSummary": "Public city records identify the Industrial Standpipe as an Upper Pressure Zone asset.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-cda-industrial-standpipe-constructed-1999",
+      "subjectType": "structure",
+      "subjectId": "cda-industrial-standpipe",
+      "field": "constructedDisplay",
+      "value": "1999",
+      "unit": "",
+      "confidence": "conflicting source-backed",
+      "sourceIds": ["cda-2012-water-plan"],
+      "quoteOrSummary": "2012 water plan table lists the Industrial Standpipe construction year as 1999.",
+      "reviewStatus": "reviewed",
+      "notes": [
+        "Conflicts with later 2018 council records that describe the standpipe as built in 2000."
+      ]
+    },
+    {
+      "id": "claim-cda-industrial-standpipe-constructed-2000",
+      "subjectType": "structure",
+      "subjectId": "cda-industrial-standpipe",
+      "field": "constructedDisplay",
+      "value": "2000",
+      "unit": "",
+      "confidence": "conflicting source-backed",
+      "sourceIds": [
+        "cda-council-minutes-2018-02-06",
+        "cda-council-packet-2018-02-20"
+      ],
+      "quoteOrSummary": "2018 public city records describe the Industrial Standpipe as built in 2000.",
+      "reviewStatus": "reviewed",
+      "notes": [
+        "Conflicts with 2012 water plan table that lists 1999."
+      ]
+    },
+    {
+      "id": "claim-cda-industrial-standpipe-condition-2012",
+      "subjectType": "structure",
+      "subjectId": "cda-industrial-standpipe",
+      "field": "condition",
+      "value": "excellent condition in 2012 plan",
+      "unit": "",
+      "confidence": "source-backed historical",
+      "sourceIds": ["cda-2012-water-plan"],
+      "quoteOrSummary": "2012 water plan describes the Industrial Standpipe as being in excellent condition and reports no problems at that time.",
+      "reviewStatus": "reviewed",
+      "notes": [
+        "Historical condition statement; do not treat as current condition without newer inspection."
+      ]
+    },
+    {
+      "id": "claim-cda-industrial-standpipe-paint-color",
+      "subjectType": "structure",
+      "subjectId": "cda-industrial-standpipe",
+      "field": "paintColor",
+      "value": "light blue",
+      "unit": "",
+      "confidence": "field observed",
+      "sourceIds": ["field-observation-2026-06-14"],
+      "quoteOrSummary": "Field photo and observation show a light blue cylindrical steel standpipe.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-cda-industrial-standpipe-recoating-project",
+      "subjectType": "project",
+      "subjectId": "cda-industrial-standpipe-recoating-2017-2018",
+      "field": "projectSummary",
+      "value": "Industrial Standpipe recoating/painting project publicly bid in 2017 and approved in 2018",
+      "unit": "",
+      "confidence": "source-backed",
+      "sourceIds": [
+        "cdapress-2017-11-24-industrial-standpipe-recoating",
+        "cda-council-minutes-2018-02-06",
+        "cda-council-packet-2018-02-20"
+      ],
+      "quoteOrSummary": "Public notices and council records describe an Industrial Standpipe recoating/painting project.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-cda-industrial-standpipe-transmission-main-2020",
+      "subjectType": "project",
+      "subjectId": "cda-transmission-line-northern-section-2020",
+      "field": "projectSummary",
+      "value": "Huetter Well to Industrial Standpipe transmission-line work publicly noticed in 2020",
+      "unit": "",
+      "confidence": "source-backed",
+      "sourceIds": [
+        "cdapress-2020-08-07-legals",
+        "cdapress-2020-08-14-legals"
+      ],
+      "quoteOrSummary": "Public legal notices describe transmission-line work connecting Huetter Well infrastructure and the Industrial Standpipe area.",
+      "reviewStatus": "reviewed",
+      "notes": [
+        "Do not publish construction access details or operational routing beyond public project context."
+      ]
+    },
+    {
+      "id": "claim-cda-prairie-transmission-main-award-2020",
+      "subjectType": "project",
+      "subjectId": "cda-prairie-transmission-main-award-2020",
+      "field": "contractAward",
+      "value": "Northwest Grading Inc.; $328,248.51",
+      "unit": "",
+      "confidence": "source-backed from public packet search result",
+      "sourceIds": ["cda-council-packet-2020-09-01"],
+      "quoteOrSummary": "Public packet search result describes the lowest responsive bid and recommended contract amount for Prairie Transmission Main work.",
+      "reviewStatus": "needs full packet page review",
+      "notes": [
+        "Full PDF is cited but should be reviewed directly for exact page references."
+      ]
+    },
+    {
+      "id": "claim-cda-water-pws-id",
+      "subjectType": "operator",
+      "subjectId": "city-of-coeur-dalene-water",
+      "field": "publicWaterSystemIds",
+      "value": "ID1280053",
+      "unit": "",
+      "confidence": "source-backed",
+      "sourceIds": ["cda-2012-water-plan"],
+      "quoteOrSummary": "2012 water plan identifies the City of Coeur d'Alene water system as PWS ID1280053.",
+      "reviewStatus": "reviewed",
+      "notes": [
+        "Confirm against a current state/EPA drinking-water database in a future pass."
+      ]
+    },
+    {
+      "id": "claim-cda-water-source-aquifer",
+      "subjectType": "operator",
+      "subjectId": "city-of-coeur-dalene-water",
+      "field": "waterSource",
+      "value": "Rathdrum Prairie aquifer",
+      "unit": "",
+      "confidence": "source-backed",
+      "sourceIds": [
+        "cda-water-department-page",
+        "cda-2012-water-plan"
+      ],
+      "quoteOrSummary": "City water page and 2012 water plan describe the Rathdrum Prairie aquifer as the system's water source.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-cda-water-system-population-served-deq",
+      "subjectType": "operator",
+      "subjectId": "city-of-coeur-dalene-water",
+      "field": "populationServed",
+      "value": 54115,
+      "unit": "people",
+      "confidence": "source-backed state list",
+      "sourceIds": ["idaho-deq-pws-list-2026"],
+      "quoteOrSummary": "Idaho DEQ public water system list identifies COEUR D ALENE CITY OF as serving 54,115 people.",
+      "reviewStatus": "reviewed from search result",
+      "notes": [
+        "System-wide value, not solely Industrial Standpipe service population."
+      ]
+    },
+    {
+      "id": "claim-cda-water-system-connections-deq",
+      "subjectType": "operator",
+      "subjectId": "city-of-coeur-dalene-water",
+      "field": "connections",
+      "value": 20174,
+      "unit": "connections",
+      "confidence": "source-backed state list",
+      "sourceIds": ["idaho-deq-pws-list-2026"],
+      "quoteOrSummary": "Idaho DEQ public water system list identifies COEUR D ALENE CITY OF as having 20,174 connections.",
+      "reviewStatus": "reviewed from search result",
+      "notes": [
+        "System-wide value, not solely Industrial Standpipe connections."
+      ]
+    },
+    {
+      "id": "claim-cda-water-system-storage",
+      "subjectType": "operator",
+      "subjectId": "city-of-coeur-dalene-water",
+      "field": "systemStorage",
+      "value": "approximately 6 million gallons",
+      "unit": "gallons",
+      "confidence": "source-backed current webpage",
+      "sourceIds": ["cda-water-department-page"],
+      "quoteOrSummary": "City Water Department page states the system has approximately 6 million gallons of storage.",
+      "reviewStatus": "reviewed",
+      "notes": [
+        "System-wide value, not solely Industrial Standpipe capacity."
+      ]
+    },
+    {
+      "id": "claim-cda-water-system-active-accounts",
+      "subjectType": "operator",
+      "subjectId": "city-of-coeur-dalene-water",
+      "field": "activeAccounts",
+      "value": "over 20,000",
+      "unit": "accounts",
+      "confidence": "source-backed current webpage",
+      "sourceIds": ["cda-water-department-page"],
+      "quoteOrSummary": "City Water Department page states the system has over 20,000 active accounts.",
+      "reviewStatus": "reviewed",
       "notes": []
     },
     {
