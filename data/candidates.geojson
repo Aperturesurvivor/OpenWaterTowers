@@ -1,0 +1,470 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm-3085312871-hiawatha-ave",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.8619307,
+          47.7921777
+        ]
+      },
+      "properties": {
+        "name": "Hiawatha Avenue Water Tower Candidate",
+        "area": "Rathdrum / north Kootenai County",
+        "nearbyIntersection": "Hiawatha Avenue area",
+        "ownerOperator": "unknown",
+        "structureType": "Water tower candidate",
+        "capacityDisplay": "unknown",
+        "heightFeet": null,
+        "constructedDisplay": "unknown",
+        "status": "OSM candidate; field verification needed",
+        "confidence": "candidate",
+        "observedAt": "",
+        "photo": "",
+        "publicNotes": [
+          "Mapped in OpenStreetMap as man_made=water_tower.",
+          "Needs public-view photo and utility/source match."
+        ],
+        "sources": [
+          {
+            "label": "OpenStreetMap node 3085312871",
+            "url": "https://www.openstreetmap.org/node/3085312871"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm-1020962054-n-fennecus-road",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.8832754,
+          47.7366684
+        ]
+      },
+      "properties": {
+        "name": "N Fennecus Road Water Tower Candidate",
+        "area": "Post Falls / Huetter corridor",
+        "nearbyIntersection": "North Fennecus Road area",
+        "ownerOperator": "unknown",
+        "structureType": "Water tower candidate",
+        "capacityDisplay": "unknown",
+        "heightFeet": null,
+        "constructedDisplay": "unknown",
+        "status": "OSM candidate; field verification needed",
+        "confidence": "candidate",
+        "observedAt": "",
+        "photo": "",
+        "publicNotes": [
+          "Mapped in OpenStreetMap as a building with man_made=water_tower.",
+          "Likely visible from the west Hayden/Post Falls edge; needs field confirmation."
+        ],
+        "sources": [
+          {
+            "label": "OpenStreetMap way 1020962054",
+            "url": "https://www.openstreetmap.org/way/1020962054"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm-1021478881-n-spokane-st",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.9483498,
+          47.7065621
+        ]
+      },
+      "properties": {
+        "name": "N Spokane Street Water Tower Candidate",
+        "area": "Post Falls",
+        "nearbyIntersection": "North Spokane Street area",
+        "ownerOperator": "City of Post Falls",
+        "structureType": "Water tower candidate",
+        "capacityDisplay": "unknown",
+        "heightFeet": null,
+        "constructedDisplay": "unknown",
+        "status": "OSM candidate; field verification needed",
+        "confidence": "candidate",
+        "observedAt": "",
+        "photo": "",
+        "publicNotes": [
+          "Mapped in OpenStreetMap as a City of Post Falls water tower.",
+          "Good early target because operator is already present in OSM.",
+          "Also identified by Josiah from map review at approximately 47.70655, -116.94834."
+        ],
+        "sources": [
+          {
+            "label": "OpenStreetMap way 1021478881",
+            "url": "https://www.openstreetmap.org/way/1021478881"
+          },
+          {
+            "label": "Josiah map review, coordinate list",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm-1211180003-east-cda",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7437433,
+          47.6890276
+        ]
+      },
+      "properties": {
+        "name": "East Coeur d'Alene Water Tower Candidate",
+        "area": "East Coeur d'Alene",
+        "nearbyIntersection": "Kootenai County / east Coeur d'Alene area",
+        "ownerOperator": "unknown",
+        "structureType": "Water tower candidate",
+        "capacityDisplay": "unknown",
+        "heightFeet": null,
+        "constructedDisplay": "unknown",
+        "status": "OSM candidate; field verification needed",
+        "confidence": "candidate",
+        "observedAt": "",
+        "photo": "",
+        "publicNotes": [
+          "Mapped in OpenStreetMap as a building with man_made=water_tower.",
+          "May correspond to a high-elevation storage facility; needs document match."
+        ],
+        "sources": [
+          {
+            "label": "OpenStreetMap way 1211180003",
+            "url": "https://www.openstreetmap.org/way/1211180003"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm-1214652829-rockridge-ln-a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7676043,
+          47.7462781
+        ]
+      },
+      "properties": {
+        "name": "Rockridge Lane Water Tower Candidate A",
+        "area": "Dalton Gardens / Hayden edge",
+        "nearbyIntersection": "Rockridge Lane area",
+        "ownerOperator": "unknown",
+        "structureType": "Water tower candidate",
+        "capacityDisplay": "unknown",
+        "heightFeet": null,
+        "constructedDisplay": "unknown",
+        "status": "OSM candidate; field verification needed",
+        "confidence": "candidate",
+        "observedAt": "",
+        "photo": "",
+        "publicNotes": [
+          "Mapped in OpenStreetMap as a building with man_made=water_tower.",
+          "One of two adjacent mapped tank/tower features in this area."
+        ],
+        "sources": [
+          {
+            "label": "OpenStreetMap way 1214652829",
+            "url": "https://www.openstreetmap.org/way/1214652829"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm-1214652830-rockridge-ln-b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7667877,
+          47.7460802
+        ]
+      },
+      "properties": {
+        "name": "Rockridge Lane Water Tower Candidate B",
+        "area": "Dalton Gardens / Hayden edge",
+        "nearbyIntersection": "Rockridge Lane area",
+        "ownerOperator": "unknown",
+        "structureType": "Water tower candidate",
+        "capacityDisplay": "unknown",
+        "heightFeet": null,
+        "constructedDisplay": "unknown",
+        "status": "OSM candidate; field verification needed",
+        "confidence": "candidate",
+        "observedAt": "",
+        "photo": "",
+        "publicNotes": [
+          "Mapped in OpenStreetMap as a building with man_made=water_tower.",
+          "One of two adjacent mapped tank/tower features in this area."
+        ],
+        "sources": [
+          {
+            "label": "OpenStreetMap way 1214652830",
+            "url": "https://www.openstreetmap.org/way/1214652830"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm-1215661890-sky-harbor-drive",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.7326977,
+          47.6675683
+        ]
+      },
+      "properties": {
+        "name": "East Sky Harbor Drive Water Tower Candidate",
+        "area": "Southeast Coeur d'Alene / Fernan edge",
+        "nearbyIntersection": "East Sky Harbor Drive area",
+        "ownerOperator": "unknown",
+        "structureType": "Water tower candidate",
+        "capacityDisplay": "unknown",
+        "heightFeet": null,
+        "constructedDisplay": "unknown",
+        "status": "OSM candidate; field verification needed",
+        "confidence": "candidate",
+        "observedAt": "",
+        "photo": "",
+        "publicNotes": [
+          "Mapped in OpenStreetMap as a building with man_made=water_tower.",
+          "Likely a high-elevation storage candidate; field access should remain public-view only."
+        ],
+        "sources": [
+          {
+            "label": "OpenStreetMap way 1215661890",
+            "url": "https://www.openstreetmap.org/way/1215661890"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm-1313585479-east-poleline-ave",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.9470959,
+          47.7313319
+        ]
+      },
+      "properties": {
+        "name": "East Poleline Avenue Water Tower Candidate",
+        "area": "Post Falls",
+        "nearbyIntersection": "East Poleline Avenue area",
+        "ownerOperator": "unknown",
+        "structureType": "Water tower candidate",
+        "capacityDisplay": "unknown",
+        "heightFeet": null,
+        "constructedDisplay": "unknown",
+        "status": "OSM candidate; field verification needed",
+        "confidence": "candidate",
+        "observedAt": "",
+        "photo": "",
+        "publicNotes": [
+          "Mapped in OpenStreetMap as man_made=water_tower.",
+          "Good Post Falls north-side candidate for field verification.",
+          "Also identified by Josiah from map review at approximately 47.73132, -116.94713."
+        ],
+        "sources": [
+          {
+            "label": "OpenStreetMap way 1313585479",
+            "url": "https://www.openstreetmap.org/way/1313585479"
+          },
+          {
+            "label": "Josiah map review, coordinate list",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-identified-47-70687--116-93231",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.93231,
+          47.70687
+        ]
+      },
+      "properties": {
+        "name": "Post Falls Water Tower Candidate - 47.70687, -116.93231",
+        "area": "Post Falls",
+        "nearbyIntersection": "Map-identified point near 47.70687, -116.93231",
+        "ownerOperator": "unknown",
+        "structureType": "Water tower candidate",
+        "capacityDisplay": "unknown",
+        "heightFeet": null,
+        "constructedDisplay": "unknown",
+        "status": "Map-identified candidate; field verification needed",
+        "confidence": "candidate",
+        "observedAt": "",
+        "photo": "",
+        "publicNotes": [
+          "Identified by Josiah from map review.",
+          "Needs in-person public-view verification, photo, and source match."
+        ],
+        "sources": [
+          {
+            "label": "Josiah map review, coordinate list",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-identified-47-70883--117-02533",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.02533,
+          47.70883
+        ]
+      },
+      "properties": {
+        "name": "West Post Falls Water Tower Candidate - 47.70883, -117.02533",
+        "area": "West Post Falls / state-line corridor",
+        "nearbyIntersection": "Map-identified point near 47.70883, -117.02533",
+        "ownerOperator": "unknown",
+        "structureType": "Possible water tower candidate",
+        "capacityDisplay": "unknown",
+        "heightFeet": null,
+        "constructedDisplay": "unknown",
+        "status": "Possible map-identified candidate; in-person verification needed",
+        "confidence": "candidate",
+        "observedAt": "",
+        "photo": "",
+        "publicNotes": [
+          "Identified by Josiah from map review as a possible water tower.",
+          "Lower-confidence candidate until checked in person from public roads."
+        ],
+        "sources": [
+          {
+            "label": "Josiah map review, coordinate list",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-identified-47-71471--116-88937-possible-pair",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.88937,
+          47.71471
+        ]
+      },
+      "properties": {
+        "name": "Post Falls Possible Twin Water Tower Candidate - 47.71471, -116.88937",
+        "area": "Post Falls / Huetter corridor",
+        "nearbyIntersection": "Map-identified point near 47.71471, -116.88937",
+        "ownerOperator": "unknown",
+        "structureType": "Possible water tower candidate",
+        "capacityDisplay": "unknown",
+        "heightFeet": null,
+        "constructedDisplay": "unknown",
+        "status": "Map-identified candidate; field verification needed",
+        "confidence": "candidate",
+        "observedAt": "",
+        "photo": "",
+        "publicNotes": [
+          "Identified by Josiah from map review as possibly two nearby water-tower-type facilities.",
+          "Needs closer satellite review and in-person public-view verification; split into separate records if two distinct facilities are confirmed."
+        ],
+        "sources": [
+          {
+            "label": "Josiah map review, coordinate list",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-identified-47-73802--116-79736",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.79736,
+          47.73802
+        ]
+      },
+      "properties": {
+        "name": "Hayden / Dalton Gardens Water Tower Candidate - 47.73802, -116.79736",
+        "area": "Hayden / Dalton Gardens edge",
+        "nearbyIntersection": "Map-identified point near 47.73802, -116.79736",
+        "ownerOperator": "unknown",
+        "structureType": "Possible water tower candidate",
+        "capacityDisplay": "unknown",
+        "heightFeet": null,
+        "constructedDisplay": "unknown",
+        "status": "Map-identified candidate; field verification needed",
+        "confidence": "candidate",
+        "observedAt": "",
+        "photo": "",
+        "publicNotes": [
+          "Identified by Josiah from map review.",
+          "Needs in-person public-view verification, photo, and source match."
+        ],
+        "sources": [
+          {
+            "label": "Josiah map review, coordinate list",
+            "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "map-identified-47-66558--116-77415",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.77415,
+          47.66558
+        ]
+      },
+      "properties": {
+        "name": "South Coeur d'Alene Water Tower Candidate - 47.66558, -116.77415",
+        "area": "South Coeur d'Alene / Fernan-Harrison corridor",
+        "nearbyIntersection": "Map-identified point near 47.66558, -116.77415",
+        "ownerOperator": "unknown",
+        "structureType": "Possible water tower candidate",
+        "capacityDisplay": "unknown",
+        "heightFeet": null,
+        "constructedDisplay": "unknown",
+        "status": "Map-identified candidate; field verification needed",
+        "confidence": "candidate",
+        "observedAt": "",
+        "photo": "",
+        "publicNotes": [
+          "Identified by Josiah from map review.",
+          "Needs in-person public-view verification, photo, and source match."
+        ],
+        "sources": [
+          {
+            "label": "Josiah map review, coordinate list",
+            "url": ""
+          }
+        ]
+      }
+    }
+  ]
+}

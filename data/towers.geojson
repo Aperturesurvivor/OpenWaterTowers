@@ -1,0 +1,62 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "cda-industrial-standpipe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-116.84086, 47.73]
+      },
+      "properties": {
+        "name": "Industrial Standpipe",
+        "aliases": ["Industrial Park Standpipe", "Huetter WT"],
+        "area": "Northwest Coeur d'Alene / Huetter corridor",
+        "nearbyIntersection": "Hanley Ave and N Carrington Ln",
+        "ownerOperator": "City of Coeur d'Alene Water Department",
+        "structureType": "Steel standpipe",
+        "serviceAreaIds": [],
+        "serviceRole": "Public records describe the tank as serving the Upper Pressure Zone.",
+        "pressureZone": "Upper Pressure Zone",
+        "capacityGallons": 2000000,
+        "capacityDisplay": "2.0 million gallons",
+        "heightFeet": 160,
+        "overflowElevationFeetMsl": 2430.5,
+        "constructedDisplay": "1999/2000",
+        "constructedNote": "2012 water plan says 1999; 2018 council minutes say 2000.",
+        "status": "Field observed; public records matched",
+        "confidence": "verified",
+        "observedAt": "2026-06-14T11:53:31-07:00",
+        "photo": "assets/cda-industrial-standpipe-2026-06-14.jpg",
+        "photoCredit": "Josiah Wilson, public roadside observation",
+        "publicNotes": [
+          "Light blue cylindrical steel standpipe visible from public roadway.",
+          "Public documents describe the tank as serving the Upper Pressure Zone.",
+          "Telecom equipment is co-located on the structure; public map omits operational details."
+        ],
+        "sources": [
+          {
+            "label": "City of Coeur d'Alene 2012 Water System Comprehensive Plan Update",
+            "url": "https://www.cdaid.org/files/Water/Comp%20Plan%20Update_FINAL.pdf"
+          },
+          {
+            "label": "City Council Minutes, 2018-02-06",
+            "url": "https://www.cdaid.org/files/Council/Minutes/Minutes020618.pdf"
+          },
+          {
+            "label": "City Council Packet, 2016-05-03",
+            "url": "https://www.cdaid.org/Files/Council/Packets/2016/Packet050316Optmized.pdf"
+          },
+          {
+            "label": "Coeur d'Alene Press legal notice, 2020-08-07",
+            "url": "https://cdapress.com/news/2020/aug/07/5-legals-for-august-7-2020/"
+          },
+          {
+            "label": "Field photos, 2026-06-14",
+            "url": ""
+          }
+        ]
+      }
+    }
+  ]
+}

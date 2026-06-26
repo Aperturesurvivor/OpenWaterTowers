@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OpenWaterTowers</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img">
+              <path d="M5 20h14" />
+              <path d="M7 20V9a5 5 0 0 1 10 0v11" />
+              <path d="M7 9h10" />
+              <path d="M9 5h6" />
+            </svg>
+          </span>
+          <div>
+            <h1>OpenWaterTowers</h1>
+            <p>Open field map of public water storage landmarks</p>
+          </div>
+        </div>
+        <div class="toolbar">
+          <button class="icon-button active" id="fitButton" type="button" title="Fit all mapped towers" aria-label="Fit all mapped towers">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8 3H5a2 2 0 0 0-2 2v3" />
+              <path d="M16 3h3a2 2 0 0 1 2 2v3" />
+              <path d="M8 21H5a2 2 0 0 1-2-2v-3" />
+              <path d="M16 21h3a2 2 0 0 0 2-2v-3" />
+            </svg>
+          </button>
+          <a class="source-link" href="data/towers.geojson">GeoJSON</a>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <section class="map-region" aria-label="Water tower map">
+          <div id="map"></div>
+          <div class="map-legend" aria-label="Map legend">
+            <span class="legend-dot"></span>
+            Verified field record
+            <span class="legend-dot candidate"></span>
+            OSM candidate
+            <span class="legend-area"></span>
+            Service area
+          </div>
+        </section>
+
+        <aside class="inspector" aria-label="Selected tower details">
+          <div id="record"></div>
+        </aside>
+      </main>
+    </div>
+
+    <template id="recordTemplate">
+      <article class="record-card">
+        <img class="record-photo" alt="" />
+        <div class="record-header">
+          <div>
+            <h2></h2>
+            <p class="record-area"></p>
+          </div>
+          <span class="confidence-pill"></span>
+        </div>
+        <dl class="facts"></dl>
+        <section class="notes-block">
+          <h3>Observation Notes</h3>
+          <ul class="notes"></ul>
+        </section>
+        <section class="sources-block">
+          <h3>Sources</h3>
+          <div class="sources"></div>
+        </section>
+      </article>
+    </template>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
