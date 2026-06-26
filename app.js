@@ -166,16 +166,36 @@ function addPdfPageIfNeeded(doc, y, needed = 24) {
 }
 
 async function loadImageDataUrl(path) {
-  if (!path) return "";
+  if (!path) return null;
   const response = await fetch(path);
-  if (!response.ok) return "";
+  if (!response.ok) return null;
   const blob = await response.blob();
   return new Promise((resolve) => {
     const reader = new FileReader();
-    reader.onload = () => resolve(reader.result);
-    reader.onerror = () => resolve("");
+    reader.onload = () => {
+      const image = new Image();
+      image.onload = () => resolve({
+        dataUrl: reader.result,
+        width: image.naturalWidth,
+        height: image.naturalHeight
+      });
+      image.onerror = () => resolve(null);
+      image.src = reader.result;
+    };
+    reader.onerror = () => resolve(null);
     reader.readAsDataURL(blob);
   });
+}
+
+function fitImageSize(image, maxWidth, maxHeight) {
+  const aspectRatio = image.width / image.height;
+  let width = maxWidth;
+  let height = width / aspectRatio;
+  if (height > maxHeight) {
+    height = maxHeight;
+    width = height * aspectRatio;
+  }
+  return { width, height };
 }
 
 async function downloadSelectedPdf() {
@@ -199,10 +219,11 @@ async function downloadSelectedPdf() {
   doc.setTextColor(99, 112, 108);
   y = addWrappedText(doc, `${properties.area} · ${properties.nearbyIntersection}`, left, y, contentWidth) + 5;
 
-  const imageData = await loadImageDataUrl(properties.photo);
-  if (imageData) {
-    doc.addImage(imageData, "JPEG", left, y, 88, 66);
-    y += 73;
+  const image = await loadImageDataUrl(properties.photo);
+  if (image) {
+    const imageSize = fitImageSize(image, 105, 92);
+    doc.addImage(image.dataUrl, "JPEG", left, y, imageSize.width, imageSize.height);
+    y += imageSize.height + 7;
   }
 
   const facts = [
