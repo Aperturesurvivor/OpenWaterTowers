@@ -33,6 +33,14 @@
               <path d="M16 21h3a2 2 0 0 0 2-2v-3" />
             </svg>
           </button>
+          <button class="icon-button" id="pdfButton" type="button" title="Download selected record as PDF" aria-label="Download selected record as PDF">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+              <path d="M14 2v6h6" />
+              <path d="M9 15h6" />
+              <path d="M12 12v6" />
+            </svg>
+          </button>
           <a class="source-link" href="data/towers.geojson">GeoJSON</a>
         </div>
       </header>
@@ -49,6 +57,8 @@
             Service area
           </div>
         </section>
+
+        <div class="panel-resizer" id="panelResizer" role="separator" aria-label="Resize information panel" aria-orientation="vertical" tabindex="0"></div>
 
         <aside class="inspector" aria-label="Selected tower details">
           <div id="record"></div>
@@ -79,6 +89,7 @@
     </template>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/jspdf@2.5.2/dist/jspdf.umd.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

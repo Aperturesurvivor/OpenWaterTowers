@@ -141,15 +141,57 @@ h1 {
 }
 
 .workspace {
+  --inspector-width: 430px;
   min-height: 0;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 430px;
+  grid-template-columns: minmax(0, 1fr) 10px var(--inspector-width);
 }
 
 .map-region {
   position: relative;
   min-width: 0;
+}
+
+.panel-resizer {
+  position: relative;
+  z-index: 700;
+  width: 10px;
+  cursor: col-resize;
   border-right: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+  background: linear-gradient(90deg, #eef4f2 0%, #ffffff 50%, #eef4f2 100%);
+}
+
+.panel-resizer::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 54px;
+  border-radius: 999px;
+  background: #aebfba;
+  box-shadow: -3px 0 0 #d1dcd8, 3px 0 0 #d1dcd8;
+  transform: translate(-50%, -50%);
+}
+
+.panel-resizer:hover,
+.panel-resizer:focus-visible,
+.is-resizing-panel .panel-resizer {
+  background: #e2f0ef;
+  outline: none;
+}
+
+.panel-resizer:hover::after,
+.panel-resizer:focus-visible::after,
+.is-resizing-panel .panel-resizer::after {
+  background: var(--accent);
+  box-shadow: -3px 0 0 rgba(22, 118, 163, 0.26), 3px 0 0 rgba(22, 118, 163, 0.26);
+}
+
+.is-resizing-panel {
+  cursor: col-resize;
+  user-select: none;
 }
 
 #map {
@@ -445,6 +487,10 @@ h3 {
     min-height: 360px;
     border-right: 0;
     border-bottom: 1px solid var(--line);
+  }
+
+  .panel-resizer {
+    display: none;
   }
 
   .inspector {
