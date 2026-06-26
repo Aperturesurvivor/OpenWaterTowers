@@ -31,6 +31,7 @@ let featureLayer;
 let serviceAreaLayer;
 let towerData;
 let allFeatures = [];
+let serviceAreasById = new Map();
 
 function fact(label, value) {
   const wrapper = document.createElement("div");
@@ -66,6 +67,13 @@ function sourceLink(source) {
   return el;
 }
 
+function serviceAreaNames(ids = []) {
+  const names = ids
+    .map((id) => serviceAreasById.get(id)?.properties?.name || id)
+    .filter(Boolean);
+  return names.length ? names.join(", ") : "unknown";
+}
+
 function renderRecord(feature) {
   const properties = feature.properties;
   const node = template.content.cloneNode(true);
@@ -97,6 +105,7 @@ function renderRecord(feature) {
     fact("Height", properties.heightFeet ? `${properties.heightFeet} ft` : "unknown"),
     fact("Type", properties.structureType),
     fact("Owner", properties.ownerOperator),
+    fact("Service Area", serviceAreaNames(properties.serviceAreaIds)),
     fact("Service Role", properties.serviceRole),
     fact("Built", properties.constructedDisplay),
     fact("Pressure Zone", properties.pressureZone || "unknown"),
@@ -147,8 +156,16 @@ async function loadTowers() {
     loadGeoJson("data/service-areas.geojson")
   ]);
 
-  if (serviceAreaData.features.length > 0) {
-    serviceAreaLayer = L.geoJSON(serviceAreaData, {
+  serviceAreasById = new Map(
+    serviceAreaData.features.map((feature) => [feature.id, feature])
+  );
+
+  const drawableServiceAreas = serviceAreaData.features.filter((feature) => feature.geometry);
+  if (drawableServiceAreas.length > 0) {
+    serviceAreaLayer = L.geoJSON({
+      type: "FeatureCollection",
+      features: drawableServiceAreas
+    }, {
       style: {
         color: "#376f95",
         weight: 2,

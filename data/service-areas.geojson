@@ -1,4 +1,34 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "cda-upper-pressure-zone",
+      "geometry": null,
+      "properties": {
+        "name": "Coeur d'Alene Upper Pressure Zone",
+        "ownerOperator": "City of Coeur d'Alene Water Department",
+        "areaType": "Pressure zone",
+        "geometryConfidence": "not digitized",
+        "sourceBasis": "Public city water plan text confirms the zone and references Figure 3-2 as the pressure-zone boundary map, but this repository does not yet include a traced polygon.",
+        "relatedTowerIds": ["cda-industrial-standpipe"],
+        "publicNotes": [
+          "The Industrial Standpipe is documented as a steel standpipe on the Upper Pressure Zone.",
+          "The standpipe supplies the Upper Zone, which can supply the General Pressure Zone via pressure-reducing valves.",
+          "A 2018 city council record says the standpipe was built to provide enhanced storage, pump-failure reserve capacity, and fire-flow support for the Upper Pressure Zone in the northwestern corridor.",
+          "The 2012 water plan says Figure 3-2 shows six existing pressure zones and one recommended future pressure zone."
+        ],
+        "sources": [
+          {
+            "label": "City of Coeur d'Alene 2012 Water System Comprehensive Plan Update",
+            "url": "https://www.cdaid.org/files/Water/Comp%20Plan%20Update_FINAL.pdf"
+          },
+          {
+            "label": "City Council Minutes, 2018-02-06",
+            "url": "https://www.cdaid.org/files/Council/Minutes/Minutes020618.pdf"
+          }
+        ]
+      }
+    }
+  ]
 }
