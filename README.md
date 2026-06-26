@@ -1,13 +1,14 @@
 # OpenWaterTowers
 
-OpenWaterTowers is an open source field atlas for water towers, standpipes, and
-public water storage landmarks.
+OpenWaterTowers is an open source civic infrastructure database and field atlas
+for water towers, standpipes, and public water storage landmarks.
 
 The first dataset focuses on Coeur d'Alene, Hayden, Post Falls, Rathdrum, and
 nearby North Idaho. The long-term goal is to make the project useful anywhere:
 local contributors can verify sites from public viewpoints, attach public
 sources, add non-sensitive engineering/civic context, map approximate service
-areas when public data allows it, and publish clean GeoJSON records.
+areas when public data allows it, and publish evidence-backed records that
+happen to render on a map.
 
 ## Goal
 
@@ -65,18 +66,32 @@ the source clearly. Do not trace or publish restricted utility maps.
 
 ## Data Model
 
-Tower records live in [`data/towers.geojson`](data/towers.geojson). Each feature
-uses standard GeoJSON point geometry plus a `properties` object for civic and
-engineering notes.
+Tower records live in [`data/towers.geojson`](data/towers.geojson). Each
+feature uses standard GeoJSON point geometry plus a `properties` object for
+civic and engineering notes. Richer database tables live beside the map layer:
+
+- [`data/operators.json`](data/operators.json)
+- [`data/sources.json`](data/sources.json)
+- [`data/photos.json`](data/photos.json)
+- [`data/projects.json`](data/projects.json)
+- [`data/claims.json`](data/claims.json)
+- [`data/service-areas.geojson`](data/service-areas.geojson)
+
+See [`docs/DATA_MODEL.md`](docs/DATA_MODEL.md) for the full schema direction.
 
 Important fields:
 
 - `name`
 - `aliases`
+- `operatorId`
 - `ownerOperator`
 - `structureType`
 - `serviceAreaIds`
 - `serviceRole`
+- `sourceIds`
+- `photoIds`
+- `projectIds`
+- `claimIds`
 - `capacityGallons`
 - `heightFeet`
 - `constructedDisplay`

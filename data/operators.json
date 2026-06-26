@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "operators": [
+    {
+      "id": "city-of-coeur-dalene-water",
+      "name": "City of Coeur d'Alene Water Department",
+      "type": "municipal water utility",
+      "jurisdiction": "Coeur d'Alene, Idaho",
+      "website": "https://www.cdaid.org/",
+      "publicWaterSystemIds": [],
+      "sourceIds": [],
+      "notes": [
+        "Public water system IDs and stable department URLs still need verification from accessible public sources."
+      ]
+    }
+  ]
+}

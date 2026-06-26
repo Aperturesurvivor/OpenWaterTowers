@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "claims": [
+    {
+      "id": "claim-cda-industrial-standpipe-capacity",
+      "subjectType": "structure",
+      "subjectId": "cda-industrial-standpipe",
+      "field": "capacityGallons",
+      "value": 2000000,
+      "unit": "gallons",
+      "confidence": "needs accessible source replacement",
+      "sourceIds": ["cda-2012-water-plan-public-url-needed"],
+      "quoteOrSummary": "Working dataset value: 2.0 million gallons.",
+      "reviewStatus": "needs source-link cleanup",
+      "notes": []
+    },
+    {
+      "id": "claim-cda-industrial-standpipe-height",
+      "subjectType": "structure",
+      "subjectId": "cda-industrial-standpipe",
+      "field": "heightFeet",
+      "value": 160,
+      "unit": "feet",
+      "confidence": "needs accessible source replacement",
+      "sourceIds": ["cda-2012-water-plan-public-url-needed"],
+      "quoteOrSummary": "Working dataset value: 160 ft.",
+      "reviewStatus": "needs source-link cleanup",
+      "notes": []
+    },
+    {
+      "id": "claim-cda-industrial-standpipe-pressure-zone",
+      "subjectType": "structure",
+      "subjectId": "cda-industrial-standpipe",
+      "field": "pressureZone",
+      "value": "Upper Pressure Zone",
+      "unit": "",
+      "confidence": "needs accessible source replacement",
+      "sourceIds": [
+        "cda-2012-water-plan-public-url-needed",
+        "cda-council-minutes-2018-02-06-public-url-needed"
+      ],
+      "quoteOrSummary": "Working dataset relationship: Industrial Standpipe is associated with the Upper Pressure Zone.",
+      "reviewStatus": "needs source-link cleanup",
+      "notes": []
+    },
+    {
+      "id": "claim-cda-industrial-standpipe-observed",
+      "subjectType": "structure",
+      "subjectId": "cda-industrial-standpipe",
+      "field": "fieldObserved",
+      "value": true,
+      "unit": "",
+      "confidence": "verified",
+      "sourceIds": ["field-observation-2026-06-14"],
+      "quoteOrSummary": "Field observed from a public roadside viewpoint on 2026-06-14.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    }
+  ]
+}

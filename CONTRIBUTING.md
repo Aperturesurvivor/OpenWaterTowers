@@ -13,6 +13,9 @@ towers, standpipes, tanks, and related public water storage landmarks.
 6. Move verified records to `data/towers.geojson`.
 7. Add service-area context to `data/service-areas.geojson` only when supported
    by public sources.
+8. Add evidence records to `data/sources.json`, `data/photos.json`,
+   `data/projects.json`, and `data/claims.json` when the contribution supports
+   richer database fields.
 
 ## Field Rules
 
@@ -33,6 +36,10 @@ towers, standpipes, tanks, and related public water storage landmarks.
 Tower records use GeoJSON points. Service areas use GeoJSON polygons or
 multipolygons. Keep records factual, sourced, and conservative.
 
+OpenWaterTowers treats the map as an interface over a small public database.
+Prefer adding source-backed claims instead of burying important facts only in
+free-text notes.
+
 Tower records should include:
 
 - `name`
@@ -40,9 +47,14 @@ Tower records should include:
 - `area`
 - `nearbyIntersection`
 - `ownerOperator`
+- `operatorId`
 - `structureType`
 - `serviceAreaIds`
 - `serviceRole`
+- `sourceIds`
+- `photoIds`
+- `projectIds`
+- `claimIds`
 - `pressureZone`
 - `capacityGallons`
 - `capacityDisplay`

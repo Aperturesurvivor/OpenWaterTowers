@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "photos": [
+    {
+      "id": "cda-industrial-standpipe-2026-06-14",
+      "structureId": "cda-industrial-standpipe",
+      "path": "assets/cda-industrial-standpipe-2026-06-14.jpg",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-06-14T11:53:31-07:00",
+      "viewpointType": "public roadside",
+      "caption": "Industrial Standpipe viewed from a public roadside near Hanley Ave and N Carrington Ln.",
+      "altText": "Light blue cylindrical steel standpipe under a blue sky, photographed from a public roadside view.",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Photo is a public-facing overview. Operational/security details are not described in the dataset."
+      },
+      "sourceId": "field-observation-2026-06-14"
+    }
+  ]
+}

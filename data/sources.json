@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "cda-2012-water-plan-public-url-needed",
+      "title": "City of Coeur d'Alene 2012 Water System Comprehensive Plan Update",
+      "sourceType": "water system plan",
+      "publisher": "City of Coeur d'Alene",
+      "publicationDate": "2012",
+      "url": "",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-26",
+      "linkStatus": "needs replacement",
+      "licenseNotes": "Public-document status needs reconfirmation from an accessible URL.",
+      "relevantPages": [],
+      "notes": [
+        "Previously cited city PDF URL is currently inaccessible for some clients."
+      ]
+    },
+    {
+      "id": "cda-council-minutes-2018-02-06-public-url-needed",
+      "title": "City Council Minutes, 2018-02-06",
+      "sourceType": "council minutes",
+      "publisher": "City of Coeur d'Alene",
+      "publicationDate": "2018-02-06",
+      "url": "",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-26",
+      "linkStatus": "needs replacement",
+      "licenseNotes": "Public-document status needs reconfirmation from an accessible URL.",
+      "relevantPages": [],
+      "notes": [
+        "Previously cited city PDF URL is currently inaccessible for some clients."
+      ]
+    },
+    {
+      "id": "cda-council-packet-2016-05-03-public-url-needed",
+      "title": "City Council Packet, 2016-05-03",
+      "sourceType": "council packet",
+      "publisher": "City of Coeur d'Alene",
+      "publicationDate": "2016-05-03",
+      "url": "",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-26",
+      "linkStatus": "needs replacement",
+      "licenseNotes": "Public-document status needs reconfirmation from an accessible URL.",
+      "relevantPages": [],
+      "notes": [
+        "Previously cited city PDF URL is currently inaccessible for some clients."
+      ]
+    },
+    {
+      "id": "cdapress-2020-08-07-legals",
+      "title": "Coeur d'Alene Press legal notice, 2020-08-07",
+      "sourceType": "legal notice",
+      "publisher": "Coeur d'Alene Press",
+      "publicationDate": "2020-08-07",
+      "url": "https://cdapress.com/news/2020/aug/07/5-legals-for-august-7-2020/",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-26",
+      "linkStatus": "live",
+      "licenseNotes": "Citation only; source material retains publisher terms.",
+      "relevantPages": [],
+      "notes": []
+    },
+    {
+      "id": "field-observation-2026-06-14",
+      "title": "Field observation, 2026-06-14",
+      "sourceType": "field observation",
+      "publisher": "OpenWaterTowers contributor",
+      "publicationDate": "2026-06-14",
+      "url": "",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-26",
+      "linkStatus": "local",
+      "licenseNotes": "Original field observation metadata in this repository.",
+      "relevantPages": [],
+      "notes": [
+        "Observation from a public roadside viewpoint."
+      ]
+    }
+  ]
+}

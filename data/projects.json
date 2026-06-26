@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "projects": [
+    {
+      "id": "cda-industrial-standpipe-source-replacement",
+      "name": "Industrial Standpipe source replacement research",
+      "projectType": "data quality",
+      "structureIds": ["cda-industrial-standpipe"],
+      "operatorId": "city-of-coeur-dalene-water",
+      "status": "open",
+      "dateDisplay": "2026-06-26",
+      "costDisplay": "not applicable",
+      "contractor": "not applicable",
+      "engineer": "not applicable",
+      "sourceIds": [
+        "cda-2012-water-plan-public-url-needed",
+        "cda-council-minutes-2018-02-06-public-url-needed",
+        "cda-council-packet-2016-05-03-public-url-needed"
+      ],
+      "publicNotes": [
+        "Find stable accessible public URLs or archived copies for currently inaccessible city source citations."
+      ],
+      "openQuestions": [
+        "Can the pressure-zone boundary map be sourced from a public, accessible city document?",
+        "Are there public bid, construction, or rehabilitation records with non-sensitive details?"
+      ]
+    }
+  ]
+}

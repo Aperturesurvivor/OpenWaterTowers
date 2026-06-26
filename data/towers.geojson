@@ -13,17 +13,48 @@
         "aliases": ["Industrial Park Standpipe", "Huetter WT"],
         "area": "Northwest Coeur d'Alene / Huetter corridor",
         "nearbyIntersection": "Hanley Ave and N Carrington Ln",
+        "addressDisplay": "unknown",
+        "city": "Coeur d'Alene",
+        "county": "Kootenai County",
+        "region": "Idaho",
+        "country": "United States",
+        "operatorId": "city-of-coeur-dalene-water",
         "ownerOperator": "City of Coeur d'Alene Water Department",
+        "publicWaterSystemIds": [],
         "structureType": "Steel standpipe",
+        "structureCategory": "standpipe",
+        "materials": ["steel"],
         "serviceAreaIds": ["cda-upper-pressure-zone"],
         "serviceRole": "Provides enhanced storage, reserve capacity, and fire-flow support for the Upper Pressure Zone; the Upper Zone can also supply the General Pressure Zone via PRVs.",
         "pressureZone": "Upper Pressure Zone",
         "capacityGallons": 2000000,
         "capacityDisplay": "2.0 million gallons",
         "heightFeet": 160,
+        "diameterFeet": null,
+        "baseElevationFeetMsl": null,
         "overflowElevationFeetMsl": 2430.5,
         "constructedDisplay": "1999/2000",
         "constructedNote": "2012 water plan says 1999; 2018 council minutes say 2000.",
+        "engineer": "unknown",
+        "contractor": "unknown",
+        "fabricator": "unknown",
+        "paintCoatingHistory": [],
+        "rehabilitationHistory": [],
+        "projectIds": ["cda-industrial-standpipe-source-replacement"],
+        "sourceIds": [
+          "cda-2012-water-plan-public-url-needed",
+          "cda-council-minutes-2018-02-06-public-url-needed",
+          "cda-council-packet-2016-05-03-public-url-needed",
+          "cdapress-2020-08-07-legals",
+          "field-observation-2026-06-14"
+        ],
+        "photoIds": ["cda-industrial-standpipe-2026-06-14"],
+        "claimIds": [
+          "claim-cda-industrial-standpipe-capacity",
+          "claim-cda-industrial-standpipe-height",
+          "claim-cda-industrial-standpipe-pressure-zone",
+          "claim-cda-industrial-standpipe-observed"
+        ],
         "status": "Field observed; public records matched",
         "confidence": "verified",
         "observedAt": "2026-06-14T11:53:31-07:00",
@@ -34,6 +65,17 @@
           "Working note: city records found during research describe the tank as serving the Upper Pressure Zone, but the direct city PDF URLs need accessible replacements.",
           "Telecom equipment is co-located on the structure; public map omits operational details."
         ],
+        "openQuestions": [
+          "Find accessible public replacement URLs for the city water plan, 2018 council minutes, and 2016 council packet.",
+          "Find an accessible public pressure-zone map or service-area polygon.",
+          "Confirm public water system ID, base elevation, diameter, engineer, contractor, and fabricator."
+        ],
+        "dataQuality": {
+          "lastReviewed": "2026-06-26",
+          "reviewStatus": "needs source-link cleanup",
+          "sensitiveDataReviewed": true,
+          "geometryConfidence": "field observed approximate point"
+        },
         "sources": [
           {
             "label": "City of Coeur d'Alene 2012 Water System Comprehensive Plan Update (public URL needed)",
