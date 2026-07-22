@@ -16,6 +16,310 @@
         "notes": "Photo is a public-facing overview. Operational/security details are not described in the dataset."
       },
       "sourceId": "field-observation-2026-06-14"
+    },
+    {
+      "id": "post-falls-hope-ave-water-tower-2026-06-30-1",
+      "path": "assets/post-falls-hope-ave-water-tower-2026-06-30-1.jpg",
+      "caption": "Hope Avenue Water Tower viewed from a public roadside viewpoint near 4814 E Hope Ave.",
+      "altText": "Light gray elevated water tower with a fluted support column behind a chain-link fence under an overcast sky.",
+      "structureId": "post-falls-hope-ave-water-tower",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-06-30",
+      "viewpointType": "public roadside",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Photos are public-facing field views. Operational/security details are not described in the dataset."
+      },
+      "sourceId": "field-observation-2026-06-30-post-falls-hope-ave"
+    },
+    {
+      "id": "post-falls-hope-ave-water-tower-2026-06-30-2",
+      "path": "assets/post-falls-hope-ave-water-tower-2026-06-30-2.jpg",
+      "caption": "Closer public-facing view of the Hope Avenue Water Tower tank and support column.",
+      "altText": "Elevated water tower tank and ribbed support column seen above a fenced utility site under cloudy skies.",
+      "structureId": "post-falls-hope-ave-water-tower",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-06-30",
+      "viewpointType": "public roadside",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Photos are public-facing field views. Operational/security details are not described in the dataset."
+      },
+      "sourceId": "field-observation-2026-06-30-post-falls-hope-ave"
+    },
+    {
+      "id": "post-falls-hope-ave-water-tower-2026-06-30-3",
+      "path": "assets/post-falls-hope-ave-water-tower-2026-06-30-3.jpg",
+      "caption": "Hope Avenue Water Tower partially visible beyond adjacent public utility structures.",
+      "altText": "Water tower behind a small utility building and fence, with dry grass in the foreground.",
+      "structureId": "post-falls-hope-ave-water-tower",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-06-30",
+      "viewpointType": "public roadside",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Photos are public-facing field views. Operational/security details are not described in the dataset."
+      },
+      "sourceId": "field-observation-2026-06-30-post-falls-hope-ave"
+    },
+    {
+      "id": "post-falls-hope-ave-water-tower-2026-06-30-4",
+      "path": "assets/post-falls-hope-ave-water-tower-2026-06-30-4.jpg",
+      "caption": "Alternate public-roadside view of the Hope Avenue Water Tower and surrounding utility site.",
+      "altText": "Light gray water tower rising behind a fenced utility building, photographed from outside the site.",
+      "structureId": "post-falls-hope-ave-water-tower",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-06-30",
+      "viewpointType": "public roadside",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Photos are public-facing field views. Operational/security details are not described in the dataset."
+      },
+      "sourceId": "field-observation-2026-06-30-post-falls-hope-ave"
+    },
+    {
+      "id": "post-falls-north-postfalls-standpipe-2026-06-30-1",
+      "path": "assets/post-falls-north-postfalls-standpipe-2026-06-30-1.jpg",
+      "caption": "North Postfalls Standpipe viewed from a public roadside viewpoint near N Spokane St.",
+      "altText": "Light blue steel standpipe rising behind a fenced City of Post Falls utility site under an overcast sky.",
+      "structureId": "post-falls-north-postfalls-standpipe",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-06-30",
+      "viewpointType": "public roadside",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Photos are public-facing field views. Operational/security details are not described in the dataset."
+      },
+      "sourceId": "field-observation-2026-06-30-post-falls-north-postfalls-standpipe"
+    },
+    {
+      "id": "post-falls-north-postfalls-standpipe-2026-06-30-2",
+      "path": "assets/post-falls-north-postfalls-standpipe-2026-06-30-2.jpg",
+      "caption": "Public-facing City of Post Falls Well #7 sign near the North Postfalls Standpipe site.",
+      "altText": "City of Post Falls Well #7 sign on a chain-link fence beside a utility building, with the standpipe edge visible at left.",
+      "structureId": "post-falls-north-postfalls-standpipe",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-06-30",
+      "viewpointType": "public roadside",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Photos are public-facing field views. Operational/security details are not described in the dataset."
+      },
+      "sourceId": "field-observation-2026-06-30-post-falls-north-postfalls-standpipe"
+    },
+    {
+      "id": "post-falls-north-postfalls-standpipe-2026-06-30-3",
+      "path": "assets/post-falls-north-postfalls-standpipe-2026-06-30-3.jpg",
+      "caption": "North Postfalls Standpipe site viewed from outside the fence, with City of Post Falls Well #5 and Well #7 signs visible.",
+      "altText": "Fenced City of Post Falls utility site with a light blue standpipe, two small utility buildings, and public well and standpipe signs.",
+      "structureId": "post-falls-north-postfalls-standpipe",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-06-30",
+      "viewpointType": "public roadside",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Photos are public-facing field views. Operational/security details are not described in the dataset."
+      },
+      "sourceId": "field-observation-2026-06-30-post-falls-north-postfalls-standpipe"
+    },
+    {
+      "id": "post-falls-beck-road-standpipe-2026-07-16-1",
+      "path": "assets/post-falls-beck-road-standpipe-2026-07-16-1.jpg",
+      "caption": "Beck Road Standpipe viewed from outside the fenced utility site near 351 N Beck Rd in Post Falls.",
+      "altText": "Tall light-blue cylindrical steel standpipe behind a chain-link fence under a deep blue sky with scattered clouds.",
+      "structureId": "post-falls-beck-road-standpipe",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-07-16",
+      "viewpointType": "public field viewpoint",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Public-facing overview photo; no close-up security signage or access instructions are included in the dataset."
+      },
+      "sourceId": "field-observation-2026-07-16-post-falls-beck-road-standpipe"
+    },
+    {
+      "id": "post-falls-spokane-street-water-tower-2026-07-16-1",
+      "path": "assets/post-falls-spokane-street-water-tower-2026-07-16-1.jpg",
+      "caption": "Spokane Street Water Tower viewed from a public downtown parking area in Post Falls.",
+      "altText": "Historic elevated steel water tower marked Post Falls, with a pale cylindrical tank on dark lattice legs beneath a cloudy sky.",
+      "structureId": "post-falls-spokane-street-water-tower",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-07-16T13:46:24-07:00",
+      "viewpointType": "public downtown viewpoint",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Public-facing overview of a retired historic landmark; no access or security details are described in the dataset."
+      },
+      "sourceId": "field-observation-2026-07-16-post-falls-spokane-street-water-tower"
+    },
+    {
+      "id": "post-falls-spokane-street-water-tower-2026-07-16-2",
+      "path": "assets/post-falls-spokane-street-water-tower-2026-07-16-2.jpg",
+      "caption": "Wide public-facing view of the historic Spokane Street Water Tower and its downtown setting.",
+      "altText": "Full-height view of the historic Post Falls water tower rising above a landscaped public parking area and nearby trees.",
+      "structureId": "post-falls-spokane-street-water-tower",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-07-16T13:46:27-07:00",
+      "viewpointType": "public downtown viewpoint",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Public-facing overview of a retired historic landmark; no access or security details are described in the dataset."
+      },
+      "sourceId": "field-observation-2026-07-16-post-falls-spokane-street-water-tower"
+    },
+    {
+      "id": "post-falls-ford-rock-tank-2026-07-16-1",
+      "path": "assets/post-falls-ford-rock-tank-2026-07-16-1.jpg",
+      "caption": "Ford Rock Tank and its Post Falls mural viewed from a public hillside viewpoint.",
+      "altText": "Low cylindrical steel storage tank painted light blue and green with a large Post Falls mural against a partly cloudy sky.",
+      "structureId": "post-falls-ford-rock-tank",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-07-16T14:07:04-07:00",
+      "viewpointType": "public field viewpoint",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Public-facing overview of the tank; access and equipment details are not described in the dataset."
+      },
+      "sourceId": "field-observation-2026-07-16-post-falls-ford-rock-tank"
+    },
+    {
+      "id": "post-falls-ford-rock-tank-2026-07-16-2",
+      "path": "assets/post-falls-ford-rock-tank-2026-07-16-2.jpg",
+      "caption": "Field view of the rear face of Ford Rock Tank from outside the secured enclosure.",
+      "altText": "Rear face of a pale blue and green cylindrical steel tank beside a fenced enclosure on a dry hillside.",
+      "structureId": "post-falls-ford-rock-tank",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-07-16T14:07:04-07:00",
+      "viewpointType": "public field viewpoint",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Public-facing overview from outside the enclosure; access and equipment details are not described in the dataset."
+      },
+      "sourceId": "field-observation-2026-07-16-post-falls-ford-rock-tank"
+    },
+    {
+      "id": "post-falls-ford-rock-tank-2026-07-16-3",
+      "path": "assets/post-falls-ford-rock-tank-2026-07-16-3.jpg",
+      "caption": "Wide public-facing view of Ford Rock Tank on its rocky hillside site.",
+      "altText": "Wide view of a low cylindrical steel tank on a dry rocky hill beneath an expansive blue and white sky.",
+      "structureId": "post-falls-ford-rock-tank",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-07-16T14:07:05-07:00",
+      "viewpointType": "public field viewpoint",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Public-facing overview from outside the enclosure; access and equipment details are not described in the dataset."
+      },
+      "sourceId": "field-observation-2026-07-16-post-falls-ford-rock-tank"
+    },
+    {
+      "id": "post-falls-reilly-reservoirs-2026-07-16-1",
+      "path": "assets/post-falls-reilly-reservoirs-2026-07-16-1.jpg",
+      "caption": "Partial public-roadside view of both Reilly Reservoirs and the small utility building between them.",
+      "altText": "Two large circular concrete reservoirs partly visible behind trees and a fence, with a small utility building between them.",
+      "structureId": "post-falls-reilly-reservoirs",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-07-16",
+      "viewpointType": "public roadside",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Public-facing overview from outside the site; access and equipment details are not described in the dataset."
+      },
+      "sourceId": "field-observation-2026-07-16-post-falls-reilly-reservoirs"
+    },
+    {
+      "id": "post-falls-reilly-reservoirs-2026-07-16-2",
+      "path": "assets/post-falls-reilly-reservoirs-2026-07-16-2.jpg",
+      "caption": "Reilly Reservoir viewed from outside the site with its public identification sign visible.",
+      "altText": "Large pale concrete reservoir behind a chain-link fence bearing a City of Post Falls Reilly Reservoir sign.",
+      "structureId": "post-falls-reilly-reservoirs",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-07-16",
+      "viewpointType": "public roadside",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Public identification sign is retained for civic-record verification; no access instructions are described."
+      },
+      "sourceId": "field-observation-2026-07-16-post-falls-reilly-reservoirs"
+    },
+    {
+      "id": "post-falls-reilly-reservoirs-2026-07-16-3",
+      "path": "assets/post-falls-reilly-reservoirs-2026-07-16-3.jpg",
+      "caption": "Public City of Post Falls sign identifying Reilly Reservoir at 4515 E Inverness Dr.",
+      "altText": "Close public-facing view of a sign reading City of Post Falls, Reilly Reservoir, 4515 E Inverness Dr.",
+      "structureId": "post-falls-reilly-reservoirs",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-07-16",
+      "viewpointType": "public roadside",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Public identification sign is retained for civic-record verification; no access instructions are described."
+      },
+      "sourceId": "field-observation-2026-07-16-post-falls-reilly-reservoirs"
+    },
+    {
+      "id": "post-falls-reilly-reservoirs-2026-07-16-4",
+      "path": "assets/post-falls-reilly-reservoirs-2026-07-16-4.jpg",
+      "caption": "Wide public-roadside view showing the two Reilly Reservoir tanks.",
+      "altText": "Large pale circular concrete reservoir in front of a darker second reservoir on a wooded hillside.",
+      "structureId": "post-falls-reilly-reservoirs",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-07-16",
+      "viewpointType": "public roadside",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Public-facing overview from outside the site; access and equipment details are not described in the dataset."
+      },
+      "sourceId": "field-observation-2026-07-16-post-falls-reilly-reservoirs"
+    },
+    {
+      "id": "post-falls-reilly-reservoirs-2026-07-16-5",
+      "path": "assets/post-falls-reilly-reservoirs-2026-07-16-5.jpg",
+      "caption": "Full public-roadside overview of Reilly Reservoirs at 4515 E Inverness Dr.",
+      "altText": "Broad view of a large circular concrete reservoir with a second reservoir partly visible behind it among pine trees.",
+      "structureId": "post-falls-reilly-reservoirs",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-07-16",
+      "viewpointType": "public roadside",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Public-facing overview from outside the site; access and equipment details are not described in the dataset."
+      },
+      "sourceId": "field-observation-2026-07-16-post-falls-reilly-reservoirs"
+    },
+    {
+      "id": "post-falls-reilly-reservoirs-2026-07-16-6",
+      "path": "assets/post-falls-reilly-reservoirs-2026-07-16-6.jpg",
+      "caption": "Public roadside sign identifying Reilly Reservoirs as a City of Post Falls Water Division facility.",
+      "altText": "Blue roadside sign reading Reilly Reservoirs, City of Post Falls Water Division, beside a neighborhood path and pine trees.",
+      "structureId": "post-falls-reilly-reservoirs",
+      "photographer": "Josiah Wilson",
+      "takenAt": "2026-07-16",
+      "viewpointType": "public roadside",
+      "license": "CC BY 4.0",
+      "safetyReview": {
+        "reviewed": true,
+        "notes": "Public roadside identification sign retained for civic-record verification."
+      },
+      "sourceId": "field-observation-2026-07-16-post-falls-reilly-reservoirs"
     }
   ]
 }

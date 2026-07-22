@@ -12,7 +12,12 @@
       "accessedAt": "2026-06-26",
       "linkStatus": "intermittent",
       "licenseNotes": "Public city planning document; cite rather than mirror until reuse terms are reviewed.",
-      "relevantPages": ["5-13", "5-17", "5-18", "5-20"],
+      "relevantPages": [
+        "5-13",
+        "5-17",
+        "5-18",
+        "5-20"
+      ],
       "notes": [
         "Public search/browser access succeeded during research, but direct HTTP access has returned 404 for some clients.",
         "Use for capacity, height, pressure zone, condition, PWS ID, and system context."
@@ -192,6 +197,391 @@
       "relevantPages": [],
       "notes": [
         "Observation from a public roadside viewpoint."
+      ]
+    },
+    {
+      "id": "osm-way-1020962054",
+      "title": "OpenStreetMap way 1020962054",
+      "sourceType": "OpenStreetMap feature",
+      "publisher": "OpenStreetMap contributors",
+      "publicationDate": "",
+      "url": "https://www.openstreetmap.org/way/1020962054",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-30",
+      "linkStatus": "live",
+      "licenseNotes": "OpenStreetMap data is available under the Open Database License; cite OSM contributors.",
+      "relevantPages": [],
+      "notes": [
+        "Candidate feature mapped as a building with man_made=water_tower at 47.7366684, -116.8832754."
+      ]
+    },
+    {
+      "id": "field-observation-2026-06-30-post-falls-hope-ave",
+      "title": "Field observation, 2026-06-30, Hope Avenue Water Tower",
+      "sourceType": "field observation",
+      "publisher": "OpenWaterTowers contributor",
+      "publicationDate": "2026-06-30",
+      "url": "",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-30",
+      "linkStatus": "local",
+      "licenseNotes": "Original field observation metadata and photos in this repository.",
+      "relevantPages": [],
+      "notes": [
+        "Observation from public roadside viewpoints near 4814 E Hope Ave, Post Falls, Idaho."
+      ]
+    },
+    {
+      "id": "kootenai-county-parcel-4814-e-hope-ave",
+      "title": "Kootenai County GeoViewer parcel record for 4814 E Hope Ave",
+      "sourceType": "county parcel GIS record",
+      "publisher": "Kootenai County, Idaho",
+      "publicationDate": "",
+      "url": "https://map.kcgov.us/arcgis/rest/services/NewServices/Ownership_Display/MapServer/0",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-30",
+      "linkStatus": "live",
+      "licenseNotes": "Public county GIS record; cite rather than mirror unless reuse terms are reviewed.",
+      "relevantPages": [],
+      "notes": [
+        "Point query at 47.73669, -116.88327 returned parcel PID P-0000-030-4800 / PIN P00000304800.",
+        "Returned attributes include Name=ROSS POINT WATER DISTRICT, Loc_Addr=4814 E HOPE AVE, Loc_City=POST FALLS, WATER=Ross Point, Acres=1.6814."
+      ]
+    },
+    {
+      "id": "rpa-water-demand-forecast-2014",
+      "title": "Rathdrum Prairie Aquifer Water Demand Forecast Model: Model Updates and Future Simulations",
+      "sourceType": "water demand forecast report",
+      "publisher": "University of Idaho Water Resources Research Institute",
+      "publicationDate": "2014-08",
+      "url": "https://iwrri.uidaho.edu/wp-content/uploads/sites/2/2020/09/201408_RPA_Demand_Forecast_GIT.pdf",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-30",
+      "linkStatus": "live",
+      "licenseNotes": "Public university research report; cite rather than mirror until reuse terms are reviewed.",
+      "relevantPages": [
+        "30"
+      ],
+      "notes": [
+        "Page 30 states that Ross Point recently completed a 1 MG tank. Treat the match to the Hope Ave tower as inferred from county parcel ownership and field observation until a site-specific utility document is found."
+      ]
+    },
+    {
+      "id": "osm-way-1313585479",
+      "title": "OpenStreetMap way 1313585479",
+      "sourceType": "OpenStreetMap feature",
+      "publisher": "OpenStreetMap contributors",
+      "publicationDate": "",
+      "url": "https://www.openstreetmap.org/way/1313585479",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-30",
+      "linkStatus": "live",
+      "licenseNotes": "OpenStreetMap data is available under the Open Database License; cite OSM contributors.",
+      "relevantPages": [],
+      "notes": [
+        "Candidate feature mapped as man_made=water_tower at approximately 47.7313319, -116.9470959."
+      ]
+    },
+    {
+      "id": "field-observation-2026-06-30-post-falls-north-postfalls-standpipe",
+      "title": "Field observation, 2026-06-30, North Postfalls Standpipe",
+      "sourceType": "field observation",
+      "publisher": "OpenWaterTowers contributor",
+      "publicationDate": "2026-06-30",
+      "url": "",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-30",
+      "linkStatus": "local",
+      "licenseNotes": "Original field observation metadata and photos in this repository.",
+      "relevantPages": [],
+      "notes": [
+        "Observation from public roadside viewpoints near 2476/2478 N Spokane St, Post Falls, Idaho.",
+        "Visible public signs identify City of Post Falls Well #5, City of Post Falls Well #7, and North Postfalls Standpipe at 2478 N Spokane St."
+      ]
+    },
+    {
+      "id": "kootenai-county-parcel-n-spokane-standpipe",
+      "title": "Kootenai County GeoViewer parcel record near N Spokane St standpipe",
+      "sourceType": "county parcel GIS record",
+      "publisher": "Kootenai County, Idaho",
+      "publicationDate": "",
+      "url": "https://map.kcgov.us/arcgis/rest/services/NewServices/Ownership_Display/MapServer/0",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-30",
+      "linkStatus": "live",
+      "licenseNotes": "Public county GIS record; cite rather than mirror unless reuse terms are reviewed.",
+      "relevantPages": [],
+      "notes": [
+        "Point query at 47.73133, -116.94711 returned parcel PID P-0000-027-8170 / PIN P00000278170.",
+        "Returned attributes include Name=POST FALLS, CITY OF; Loc_Addr=2834 N SPOKANE ST; Acres=11.318. Field signs at the standpipe/well site show 2478 N Spokane St."
+      ]
+    },
+    {
+      "id": "tnemec-post-falls-standpipe-2003",
+      "title": "Post Falls Standpipe project profile",
+      "sourceType": "coating project profile",
+      "publisher": "Tnemec Company, Inc.",
+      "publicationDate": "2003",
+      "url": "https://www.tnemec.com/projects/post-falls-standpipe/",
+      "archiveUrl": "",
+      "accessedAt": "2026-06-30",
+      "linkStatus": "live",
+      "licenseNotes": "Citation only; source material retains publisher terms.",
+      "relevantPages": [],
+      "notes": [
+        "Project profile describes a Post Falls, Idaho potable-water standpipe completed in August 2003 with 3.5 million gallons of capacity.",
+        "Profile lists owner as City of Post Falls, engineer as J-U-B Engineers, applicator as Extreme Coatings, Inc., and fabricator as Chicago Bridge & Iron.",
+        "Treat the match to the North Postfalls Standpipe as likely but still in need of a site-specific city or engineering source."
+      ]
+    },
+    {
+      "id": "field-observation-2026-07-16-post-falls-beck-road-standpipe",
+      "title": "Field observation, 2026-07-16, Beck Road Standpipe",
+      "sourceType": "field observation",
+      "publisher": "OpenWaterTowers contributor",
+      "publicationDate": "2026-07-16",
+      "url": "",
+      "archiveUrl": "",
+      "accessedAt": "2026-07-16",
+      "linkStatus": "local",
+      "licenseNotes": "Original field observation metadata and photo in this repository.",
+      "relevantPages": [],
+      "notes": [
+        "Josiah Wilson supplied a field photo and coordinates 47.70884, -117.02531.",
+        "The photo shows a tall light-blue cylindrical steel standpipe from outside the fenced utility site."
+      ]
+    },
+    {
+      "id": "kootenai-county-parcel-351-n-beck-rd",
+      "title": "Kootenai County parcel GIS record for 351 N Beck Rd",
+      "sourceType": "county parcel GIS record",
+      "publisher": "Kootenai County, Idaho",
+      "publicationDate": "",
+      "url": "https://map.kcgov.us/arcgis/rest/services/KC_Dynamic_Layers_KE_Unfil/MapServer/11",
+      "archiveUrl": "",
+      "accessedAt": "2026-07-16",
+      "linkStatus": "live",
+      "licenseNotes": "Public county GIS record; cite rather than mirror unless reuse terms are reviewed.",
+      "relevantPages": [],
+      "notes": [
+        "Point query at 47.70884, -117.02531 returned parcel PID P-0000-001-7200 / PIN P00000017200.",
+        "Returned attributes include Name=POST FALLS, CITY OF; Loc_Addr=351 N BECK RD; Loc_City=POST FALLS; Acres=1.879."
+      ]
+    },
+    {
+      "id": "osm-way-1021478881",
+      "title": "OpenStreetMap way 1021478881",
+      "sourceType": "OpenStreetMap feature",
+      "publisher": "OpenStreetMap contributors",
+      "publicationDate": "",
+      "url": "https://www.openstreetmap.org/way/1021478881",
+      "archiveUrl": "",
+      "accessedAt": "2026-07-16",
+      "linkStatus": "live",
+      "licenseNotes": "OpenStreetMap data is available under the Open Database License; cite OSM contributors.",
+      "relevantPages": [],
+      "notes": [
+        "Candidate feature mapped as a City of Post Falls water tower at approximately 47.7065621, -116.9483498."
+      ]
+    },
+    {
+      "id": "field-observation-2026-07-16-post-falls-spokane-street-water-tower",
+      "title": "Field observation, 2026-07-16, Spokane Street Water Tower",
+      "sourceType": "field observation",
+      "publisher": "OpenWaterTowers contributor",
+      "publicationDate": "2026-07-16",
+      "url": "",
+      "archiveUrl": "",
+      "accessedAt": "2026-07-16",
+      "linkStatus": "local",
+      "licenseNotes": "Original field observation metadata and photos in this repository.",
+      "relevantPages": [],
+      "notes": [
+        "Josiah Wilson supplied two field photos and coordinates 47.70659, -116.94837.",
+        "The photos show an elevated riveted steel water tower marked POST FALLS from public downtown viewpoints."
+      ]
+    },
+    {
+      "id": "kootenai-county-parcel-107-n-spokane-st",
+      "title": "Kootenai County parcel GIS record for 107 N Spokane St",
+      "sourceType": "county parcel GIS record",
+      "publisher": "Kootenai County, Idaho",
+      "publicationDate": "",
+      "url": "https://map.kcgov.us/arcgis/rest/services/KC_Dynamic_Layers_KE_Unfil/MapServer/11",
+      "archiveUrl": "",
+      "accessedAt": "2026-07-16",
+      "linkStatus": "live",
+      "licenseNotes": "Public county GIS record; cite rather than mirror unless reuse terms are reviewed.",
+      "relevantPages": [],
+      "notes": [
+        "Point query at 47.70659, -116.94837 returned parcel PID P-0000-003-4925 / PIN P00000034925.",
+        "Returned attributes include Name=POST FALLS, CITY OF; Loc_Addr=107 N SPOKANE ST; Loc_City=POST FALLS; Acres=0.037."
+      ]
+    },
+    {
+      "id": "cdapress-2025-09-06-spokane-street-water-tower",
+      "title": "Post Falls considers fundraising to preserve Spokane Street tower",
+      "sourceType": "local news report quoting city officials",
+      "publisher": "Coeur d'Alene Press",
+      "publicationDate": "2025-09-06",
+      "url": "https://cdapress.com/news/2025/sep/06/post-falls-looks-to-fundraise-to-keep-spokane-street-tower/",
+      "archiveUrl": "",
+      "accessedAt": "2026-07-16",
+      "linkStatus": "live",
+      "licenseNotes": "Citation only; source material retains publisher terms.",
+      "relevantPages": [],
+      "notes": [
+        "Quotes the Post Falls public works director identifying 1908 as the construction year and explaining that the tower has not functioned as a City water-division asset for years because its pressure does not meet modern standards.",
+        "Reports that the tower sits between First and Second avenues, the area became a mini park through downtown planning, and preservation work was under consideration."
+      ]
+    },
+    {
+      "id": "cdapress-2026-07-14-post-falls-water-tower-preservation",
+      "title": "Post Falls Rotary launches campaign to preserve historic water tower",
+      "sourceType": "local news report and preservation announcement",
+      "publisher": "Coeur d'Alene Press",
+      "publicationDate": "2026-07-14",
+      "url": "https://cdapress.com/news/2026/jul/14/post-falls-rotary-launches-campaign-to-preserve-historic-water-tower/",
+      "archiveUrl": "",
+      "accessedAt": "2026-07-16",
+      "linkStatus": "live",
+      "licenseNotes": "Citation only; source material retains publisher terms.",
+      "relevantPages": [],
+      "notes": [
+        "Reports that the tower no longer stores water, remained in service for more than 70 years, and is the subject of a Post Falls Rotary preservation campaign.",
+        "Reports that recent engineering review found the historic structure sound for its age and that the City Council allocated estimated demolition cost as seed funding for preservation."
+      ]
+    },
+    {
+      "id": "field-observation-2026-07-16-post-falls-ford-rock-tank",
+      "title": "Field observation, 2026-07-16, Ford Rock Tank",
+      "sourceType": "field observation",
+      "publisher": "OpenWaterTowers contributor",
+      "publicationDate": "2026-07-16",
+      "url": "",
+      "archiveUrl": "",
+      "accessedAt": "2026-07-16",
+      "linkStatus": "local",
+      "licenseNotes": "Original field observation metadata and photos in this repository.",
+      "relevantPages": [],
+      "notes": [
+        "Josiah Wilson supplied three field photos and coordinates 47.70687, -116.93231.",
+        "The photos show a low cylindrical steel tank painted with a Post Falls mural from viewpoints outside the secured enclosure."
+      ]
+    },
+    {
+      "id": "kootenai-county-parcel-1210-e-3rd-ave",
+      "title": "Kootenai County parcel GIS record for 1210 E 3rd Ave",
+      "sourceType": "county parcel GIS record",
+      "publisher": "Kootenai County, Idaho",
+      "publicationDate": "",
+      "url": "https://map.kcgov.us/arcgis/rest/services/KC_Dynamic_Layers_KE_Unfil/MapServer/11",
+      "archiveUrl": "",
+      "accessedAt": "2026-07-16",
+      "linkStatus": "live",
+      "licenseNotes": "Public county GIS record; cite rather than mirror unless reuse terms are reviewed.",
+      "relevantPages": [],
+      "notes": [
+        "Point query at 47.70687, -116.93231 returned parcel PID P-0000-002-6800 / PIN P00000026800.",
+        "Returned attributes include Name=POST FALLS, CITY OF; Loc_Addr=1210 E 3RD AVE; Loc_City=POST FALLS; Acres=60.1865."
+      ]
+    },
+    {
+      "id": "post-falls-water-system-master-plan-2018",
+      "title": "City of Post Falls Water System Master Plan",
+      "sourceType": "water system master plan",
+      "publisher": "City of Post Falls",
+      "publicationDate": "2018-07",
+      "url": "https://www.postfalls.gov/DocumentCenter/View/670/Water-System-Master-Plan-PDF",
+      "archiveUrl": "",
+      "accessedAt": "2026-07-16",
+      "linkStatus": "live",
+      "licenseNotes": "Public city planning document; cite rather than mirror until reuse terms are reviewed.",
+      "relevantPages": [
+        "1-6",
+        "1-7",
+        "3-7",
+        "4-1",
+        "4-5"
+      ],
+      "notes": [
+        "Table 1-3 lists Ford Rock as a 0.26 MG welded-steel Main Zone tank constructed in 1979, with a 65-foot diameter, base elevation 2,275 feet, and overflow elevation 2,299 feet.",
+        "Pages 1-6, 3-7, 4-1, and 4-5 identify Ford Rock as inactive; page 4-5 states that the City had no plans to put it back into service.",
+        "Table 1-3 lists Reilly #1 and #2 as active 1.0 MG precast-concrete Main Zone tanks, with base elevation 2,332 feet, overflow elevation 2,356 feet, and 85-foot diameters.",
+        "Table 1-3 dates Reilly #1 to 1986 and Reilly #2 to 1994; page 4-5 instead dates Reilly #1 to 1983 while retaining 1994 for Reilly #2.",
+        "Page 3-7 identifies the Reilly Tanks as active storage serving the Main and Highlands zones."
+      ]
+    },
+    {
+      "id": "post-falls-public-gis-water-tanks-2026",
+      "title": "City of Post Falls public GIS - water tanks",
+      "sourceType": "municipal public GIS layer",
+      "publisher": "City of Post Falls",
+      "publicationDate": "",
+      "url": "https://gis.postfalls.gov/server/rest/services/GIS2/PublicWorks/MapServer/9",
+      "archiveUrl": "",
+      "accessedAt": "2026-07-16",
+      "linkStatus": "live",
+      "licenseNotes": "Public municipal GIS record; cite rather than mirror unless reuse terms are reviewed.",
+      "relevantPages": [],
+      "notes": [
+        "Current layer query returns a point labeled FORD ROCK TANK at approximately 47.7068170, -116.9323257.",
+        "The layer lists facility ID 1038 and a 60-foot diameter; it does not expose an operational-status field.",
+        "Current layer query returns a point labeled REILLY TANKS 1 & 2 at approximately 47.7147588, -116.8894509.",
+        "The combined Reilly GIS feature lists facility ID 1037 and a 120-foot diameter; it does not expose capacity, material, year, or operational status."
+      ]
+    },
+    {
+      "id": "field-observation-2026-07-16-post-falls-reilly-reservoirs",
+      "title": "Field observation, 2026-07-16, Reilly Reservoirs",
+      "sourceType": "field observation",
+      "publisher": "OpenWaterTowers contributor",
+      "publicationDate": "2026-07-16",
+      "url": "",
+      "archiveUrl": "",
+      "accessedAt": "2026-07-16",
+      "linkStatus": "local",
+      "licenseNotes": "Original field observation metadata and photos in this repository.",
+      "relevantPages": [],
+      "notes": [
+        "Josiah Wilson supplied six field photos and coordinates 47.71468, -116.88943.",
+        "Public signs identify REILLY RESERVOIR, 4515 E INVERNESS DR, and REILLY RESERVOIRS / CITY OF POST FALLS WATER DIVISION.",
+        "The photos document two large circular concrete reservoirs from public roadside viewpoints outside the secured site."
+      ]
+    },
+    {
+      "id": "kootenai-county-parcel-4515-e-inverness-dr",
+      "title": "Kootenai County parcel GIS record for 4515 E Inverness Dr",
+      "sourceType": "county parcel GIS record",
+      "publisher": "Kootenai County, Idaho",
+      "publicationDate": "",
+      "url": "https://map.kcgov.us/arcgis/rest/services/KC_Dynamic_Layers_KE_Unfil/MapServer/11",
+      "archiveUrl": "",
+      "accessedAt": "2026-07-16",
+      "linkStatus": "live",
+      "licenseNotes": "Public county GIS record; cite rather than mirror unless reuse terms are reviewed.",
+      "relevantPages": [],
+      "notes": [
+        "Point query at 47.71468, -116.88943 returned parcel PID P-0000-006-3000 / PIN P00000063000.",
+        "Returned attributes include Name=POST FALLS, CITY OF; Loc_Addr=4515 E INVERNESS DR; Loc_City=POST FALLS; Acres=2.404."
+      ]
+    },
+    {
+      "id": "field-access-review-2026-07-16-map-identified-47-72318--116-86993",
+      "title": "Field-access review, 2026-07-16, candidate at 47.72318, -116.86993",
+      "sourceType": "field-access review",
+      "publisher": "OpenWaterTowers contributor",
+      "publicationDate": "2026-07-16",
+      "url": "",
+      "archiveUrl": "",
+      "accessedAt": "2026-07-16",
+      "linkStatus": "local",
+      "licenseNotes": "Original contributor observation metadata in this repository.",
+      "relevantPages": [],
+      "notes": [
+        "Josiah Wilson reported that the candidate point is landlocked and has no apparent public-view approach.",
+        "This is an access-screening observation, not a legal parcel-access determination.",
+        "Candidate should be researched remotely and should not be included in field-visit routing unless a clearly lawful public viewpoint is later documented."
       ]
     }
   ]

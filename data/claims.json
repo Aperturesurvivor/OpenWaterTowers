@@ -9,7 +9,9 @@
       "value": 2000000,
       "unit": "gallons",
       "confidence": "source-backed",
-      "sourceIds": ["cda-2012-water-plan"],
+      "sourceIds": [
+        "cda-2012-water-plan"
+      ],
       "quoteOrSummary": "2012 water plan table lists the Industrial Standpipe capacity as 2.0 million gallons.",
       "reviewStatus": "reviewed",
       "notes": [
@@ -24,7 +26,9 @@
       "value": 160,
       "unit": "feet",
       "confidence": "source-backed",
-      "sourceIds": ["cda-2012-water-plan"],
+      "sourceIds": [
+        "cda-2012-water-plan"
+      ],
       "quoteOrSummary": "2012 water plan table lists the Industrial Standpipe height as 160 ft.",
       "reviewStatus": "reviewed",
       "notes": [
@@ -56,7 +60,9 @@
       "value": "1999",
       "unit": "",
       "confidence": "conflicting source-backed",
-      "sourceIds": ["cda-2012-water-plan"],
+      "sourceIds": [
+        "cda-2012-water-plan"
+      ],
       "quoteOrSummary": "2012 water plan table lists the Industrial Standpipe construction year as 1999.",
       "reviewStatus": "reviewed",
       "notes": [
@@ -89,7 +95,9 @@
       "value": "excellent condition in 2012 plan",
       "unit": "",
       "confidence": "source-backed historical",
-      "sourceIds": ["cda-2012-water-plan"],
+      "sourceIds": [
+        "cda-2012-water-plan"
+      ],
       "quoteOrSummary": "2012 water plan describes the Industrial Standpipe as being in excellent condition and reports no problems at that time.",
       "reviewStatus": "reviewed",
       "notes": [
@@ -104,7 +112,9 @@
       "value": "light blue",
       "unit": "",
       "confidence": "field observed",
-      "sourceIds": ["field-observation-2026-06-14"],
+      "sourceIds": [
+        "field-observation-2026-06-14"
+      ],
       "quoteOrSummary": "Field photo and observation show a light blue cylindrical steel standpipe.",
       "reviewStatus": "reviewed",
       "notes": []
@@ -152,7 +162,9 @@
       "value": "Northwest Grading Inc.; $328,248.51",
       "unit": "",
       "confidence": "source-backed from public packet search result",
-      "sourceIds": ["cda-council-packet-2020-09-01"],
+      "sourceIds": [
+        "cda-council-packet-2020-09-01"
+      ],
       "quoteOrSummary": "Public packet search result describes the lowest responsive bid and recommended contract amount for Prairie Transmission Main work.",
       "reviewStatus": "needs full packet page review",
       "notes": [
@@ -167,7 +179,9 @@
       "value": "ID1280053",
       "unit": "",
       "confidence": "source-backed",
-      "sourceIds": ["cda-2012-water-plan"],
+      "sourceIds": [
+        "cda-2012-water-plan"
+      ],
       "quoteOrSummary": "2012 water plan identifies the City of Coeur d'Alene water system as PWS ID1280053.",
       "reviewStatus": "reviewed",
       "notes": [
@@ -198,7 +212,9 @@
       "value": 54115,
       "unit": "people",
       "confidence": "source-backed state list",
-      "sourceIds": ["idaho-deq-pws-list-2026"],
+      "sourceIds": [
+        "idaho-deq-pws-list-2026"
+      ],
       "quoteOrSummary": "Idaho DEQ public water system list identifies COEUR D ALENE CITY OF as serving 54,115 people.",
       "reviewStatus": "reviewed from search result",
       "notes": [
@@ -213,7 +229,9 @@
       "value": 20174,
       "unit": "connections",
       "confidence": "source-backed state list",
-      "sourceIds": ["idaho-deq-pws-list-2026"],
+      "sourceIds": [
+        "idaho-deq-pws-list-2026"
+      ],
       "quoteOrSummary": "Idaho DEQ public water system list identifies COEUR D ALENE CITY OF as having 20,174 connections.",
       "reviewStatus": "reviewed from search result",
       "notes": [
@@ -228,7 +246,9 @@
       "value": "approximately 6 million gallons",
       "unit": "gallons",
       "confidence": "source-backed current webpage",
-      "sourceIds": ["cda-water-department-page"],
+      "sourceIds": [
+        "cda-water-department-page"
+      ],
       "quoteOrSummary": "City Water Department page states the system has approximately 6 million gallons of storage.",
       "reviewStatus": "reviewed",
       "notes": [
@@ -243,7 +263,9 @@
       "value": "over 20,000",
       "unit": "accounts",
       "confidence": "source-backed current webpage",
-      "sourceIds": ["cda-water-department-page"],
+      "sourceIds": [
+        "cda-water-department-page"
+      ],
       "quoteOrSummary": "City Water Department page states the system has over 20,000 active accounts.",
       "reviewStatus": "reviewed",
       "notes": []
@@ -256,10 +278,510 @@
       "value": true,
       "unit": "",
       "confidence": "verified",
-      "sourceIds": ["field-observation-2026-06-14"],
+      "sourceIds": [
+        "field-observation-2026-06-14"
+      ],
       "quoteOrSummary": "Field observed from a public roadside viewpoint on 2026-06-14.",
       "reviewStatus": "reviewed",
       "notes": []
+    },
+    {
+      "id": "claim-post-falls-hope-ave-water-tower-observed",
+      "subjectType": "structure",
+      "subjectId": "post-falls-hope-ave-water-tower",
+      "field": "fieldObserved",
+      "value": true,
+      "unit": "",
+      "confidence": "verified",
+      "sourceIds": [
+        "field-observation-2026-06-30-post-falls-hope-ave"
+      ],
+      "quoteOrSummary": "Field observed from public roadside viewpoints near 4814 E Hope Ave, Post Falls, Idaho, on 2026-06-30.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-hope-ave-water-tower-owner-operator",
+      "subjectType": "structure",
+      "subjectId": "post-falls-hope-ave-water-tower",
+      "field": "ownerOperator",
+      "value": "Ross Point Water District",
+      "unit": "",
+      "confidence": "source-backed county parcel record",
+      "sourceIds": [
+        "kootenai-county-parcel-4814-e-hope-ave"
+      ],
+      "quoteOrSummary": "Kootenai County parcel query for 4814 E Hope Ave returned Name=ROSS POINT WATER DISTRICT and WATER=Ross Point.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-hope-ave-water-tower-pws-id",
+      "subjectType": "operator",
+      "subjectId": "ross-point-water-district",
+      "field": "publicWaterSystemIds",
+      "value": "ID1280163",
+      "unit": "",
+      "confidence": "source-backed state list",
+      "sourceIds": [
+        "idaho-deq-pws-list-2026"
+      ],
+      "quoteOrSummary": "Idaho DEQ public water system list page 9 identifies ID1280163 ROSS POINT WATER DIST as a community system serving 8,965 people with 3,586 connections.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-hope-ave-water-tower-capacity-likely-1mg",
+      "subjectType": "structure",
+      "subjectId": "post-falls-hope-ave-water-tower",
+      "field": "capacityGallons",
+      "value": 1000000,
+      "unit": "gallons",
+      "confidence": "source-backed district tank; site match inferred",
+      "sourceIds": [
+        "rpa-water-demand-forecast-2014",
+        "kootenai-county-parcel-4814-e-hope-ave",
+        "field-observation-2026-06-30-post-falls-hope-ave"
+      ],
+      "quoteOrSummary": "2014 Rathdrum Prairie Aquifer demand forecast report page 30 says Ross Point recently completed a 1 MG tank; county parcel and field observation place the visible Hope Ave tower on a Ross Point Water District parcel.",
+      "reviewStatus": "needs site-specific confirmation",
+      "notes": [
+        "Use as a provisional capacity until a district-specific or engineering document confirms the Hope Ave tank directly."
+      ]
+    },
+    {
+      "id": "claim-post-falls-north-postfalls-standpipe-observed",
+      "subjectType": "structure",
+      "subjectId": "post-falls-north-postfalls-standpipe",
+      "field": "fieldObserved",
+      "value": true,
+      "unit": "",
+      "confidence": "verified",
+      "sourceIds": [
+        "field-observation-2026-06-30-post-falls-north-postfalls-standpipe"
+      ],
+      "quoteOrSummary": "Field observed from public roadside viewpoints near 2476/2478 N Spokane St, Post Falls, Idaho, on 2026-06-30; visible signs identify North Postfalls Standpipe and City of Post Falls wells #5 and #7.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-north-postfalls-standpipe-owner-operator",
+      "subjectType": "structure",
+      "subjectId": "post-falls-north-postfalls-standpipe",
+      "field": "ownerOperator",
+      "value": "City of Post Falls",
+      "unit": "",
+      "confidence": "source-backed county parcel and field observation",
+      "sourceIds": [
+        "kootenai-county-parcel-n-spokane-standpipe",
+        "field-observation-2026-06-30-post-falls-north-postfalls-standpipe"
+      ],
+      "quoteOrSummary": "Kootenai County parcel query returned Name=POST FALLS, CITY OF, and field signs identify City of Post Falls wells at the site.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-north-postfalls-standpipe-pws-id",
+      "subjectType": "operator",
+      "subjectId": "city-of-post-falls-water",
+      "field": "publicWaterSystemIds",
+      "value": "ID1280147",
+      "unit": "",
+      "confidence": "source-backed state list",
+      "sourceIds": [
+        "idaho-deq-pws-list-2026"
+      ],
+      "quoteOrSummary": "Idaho DEQ public water system list page 9 identifies ID1280147 POST FALLS CITY OF as a community system serving 20,285 people with 8,114 connections.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-north-postfalls-standpipe-capacity-likely-35mg",
+      "subjectType": "structure",
+      "subjectId": "post-falls-north-postfalls-standpipe",
+      "field": "capacityGallons",
+      "value": 3500000,
+      "unit": "gallons",
+      "confidence": "source-backed city standpipe; site match likely",
+      "sourceIds": [
+        "tnemec-post-falls-standpipe-2003",
+        "field-observation-2026-06-30-post-falls-north-postfalls-standpipe",
+        "kootenai-county-parcel-n-spokane-standpipe"
+      ],
+      "quoteOrSummary": "Tnemec project profile describes a Post Falls potable-water standpipe with 3.5 million gallons of capacity; field signs and county parcel source place this observed standpipe on a City of Post Falls utility site.",
+      "reviewStatus": "needs site-specific confirmation",
+      "notes": [
+        "Use as provisional capacity until a city or engineering source confirms the North Postfalls Standpipe directly."
+      ]
+    },
+    {
+      "id": "claim-post-falls-north-postfalls-standpipe-constructed-likely-2003",
+      "subjectType": "structure",
+      "subjectId": "post-falls-north-postfalls-standpipe",
+      "field": "constructedDisplay",
+      "value": "2003",
+      "unit": "",
+      "confidence": "source-backed city standpipe; site match likely",
+      "sourceIds": [
+        "tnemec-post-falls-standpipe-2003",
+        "field-observation-2026-06-30-post-falls-north-postfalls-standpipe",
+        "kootenai-county-parcel-n-spokane-standpipe"
+      ],
+      "quoteOrSummary": "Tnemec project profile says the Post Falls standpipe project was completed in August 2003; field signs and county parcel source place this observed standpipe on a City of Post Falls utility site.",
+      "reviewStatus": "needs site-specific confirmation",
+      "notes": [
+        "Confirm directly against City of Post Falls or engineering records."
+      ]
+    },
+    {
+      "id": "claim-post-falls-beck-road-standpipe-observed",
+      "subjectType": "structure",
+      "subjectId": "post-falls-beck-road-standpipe",
+      "field": "fieldObserved",
+      "value": true,
+      "unit": "",
+      "confidence": "verified",
+      "sourceIds": [
+        "field-observation-2026-07-16-post-falls-beck-road-standpipe"
+      ],
+      "quoteOrSummary": "Field photo supplied by Josiah Wilson documents a tall light-blue cylindrical steel standpipe at 47.70884, -117.02531 on 2026-07-16.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-beck-road-standpipe-owner-operator",
+      "subjectType": "structure",
+      "subjectId": "post-falls-beck-road-standpipe",
+      "field": "ownerOperator",
+      "value": "City of Post Falls",
+      "unit": "",
+      "confidence": "source-backed county parcel record",
+      "sourceIds": [
+        "kootenai-county-parcel-351-n-beck-rd"
+      ],
+      "quoteOrSummary": "Kootenai County parcel query at the observation point returned Name=POST FALLS, CITY OF and Loc_Addr=351 N BECK RD.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-spokane-street-water-tower-observed",
+      "subjectType": "structure",
+      "subjectId": "post-falls-spokane-street-water-tower",
+      "field": "fieldObserved",
+      "value": true,
+      "unit": "",
+      "confidence": "verified",
+      "sourceIds": [
+        "field-observation-2026-07-16-post-falls-spokane-street-water-tower",
+        "osm-way-1021478881"
+      ],
+      "quoteOrSummary": "Two field photos supplied by Josiah Wilson document the elevated steel tower at 47.70659, -116.94837 on 2026-07-16; the point matches the earlier OSM candidate within a few meters.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-spokane-street-water-tower-owner",
+      "subjectType": "structure",
+      "subjectId": "post-falls-spokane-street-water-tower",
+      "field": "ownerOperator",
+      "value": "City of Post Falls",
+      "unit": "",
+      "confidence": "source-backed county parcel record",
+      "sourceIds": [
+        "kootenai-county-parcel-107-n-spokane-st"
+      ],
+      "quoteOrSummary": "Kootenai County parcel query at the observation point returned Name=POST FALLS, CITY OF and Loc_Addr=107 N SPOKANE ST.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-spokane-street-water-tower-constructed-1908",
+      "subjectType": "structure",
+      "subjectId": "post-falls-spokane-street-water-tower",
+      "field": "constructedDisplay",
+      "value": "1908",
+      "unit": "",
+      "confidence": "source-backed city official statement",
+      "sourceIds": [
+        "cdapress-2025-09-06-spokane-street-water-tower"
+      ],
+      "quoteOrSummary": "A 2025 local report quotes the Post Falls public works director identifying 1908 as the tower's construction year.",
+      "reviewStatus": "reviewed",
+      "notes": [
+        "Seek an original city or historical record as a second construction-date source."
+      ]
+    },
+    {
+      "id": "claim-post-falls-spokane-street-water-tower-retired",
+      "subjectType": "structure",
+      "subjectId": "post-falls-spokane-street-water-tower",
+      "field": "operationalStatus",
+      "value": "retired; no longer stores water",
+      "unit": "",
+      "confidence": "source-backed current reporting",
+      "sourceIds": [
+        "cdapress-2025-09-06-spokane-street-water-tower",
+        "cdapress-2026-07-14-post-falls-water-tower-preservation"
+      ],
+      "quoteOrSummary": "Post Falls public works said in 2025 that the tower had not functioned as a water-division asset for years; the July 2026 preservation announcement states that it no longer stores water.",
+      "reviewStatus": "reviewed",
+      "notes": [
+        "The precise retirement date has not yet been found."
+      ]
+    },
+    {
+      "id": "claim-post-falls-spokane-street-water-tower-preservation-campaign",
+      "subjectType": "structure",
+      "subjectId": "post-falls-spokane-street-water-tower",
+      "field": "preservationStatus",
+      "value": "Post Falls Rotary preservation fundraising campaign launched in July 2026",
+      "unit": "",
+      "confidence": "source-backed current reporting",
+      "sourceIds": [
+        "cdapress-2026-07-14-post-falls-water-tower-preservation"
+      ],
+      "quoteOrSummary": "A July 2026 announcement describes a Post Falls Rotary-led campaign to restore and preserve the historic tower, with City seed funding based on estimated demolition cost.",
+      "reviewStatus": "reviewed",
+      "notes": [
+        "Track fundraising and restoration outcomes in future updates."
+      ]
+    },
+    {
+      "id": "claim-post-falls-ford-rock-tank-observed",
+      "subjectType": "structure",
+      "subjectId": "post-falls-ford-rock-tank",
+      "field": "fieldObserved",
+      "value": true,
+      "unit": "",
+      "confidence": "verified",
+      "sourceIds": [
+        "field-observation-2026-07-16-post-falls-ford-rock-tank"
+      ],
+      "quoteOrSummary": "Three field photos supplied by Josiah Wilson document the low cylindrical steel tank at 47.70687, -116.93231 on 2026-07-16.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-ford-rock-tank-name",
+      "subjectType": "structure",
+      "subjectId": "post-falls-ford-rock-tank",
+      "field": "name",
+      "value": "Ford Rock Tank",
+      "unit": "",
+      "confidence": "source-backed current municipal GIS",
+      "sourceIds": [
+        "post-falls-public-gis-water-tanks-2026"
+      ],
+      "quoteOrSummary": "The City of Post Falls public water-tank GIS layer labels the feature at this point FORD ROCK TANK.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-ford-rock-tank-owner",
+      "subjectType": "structure",
+      "subjectId": "post-falls-ford-rock-tank",
+      "field": "ownerOperator",
+      "value": "City of Post Falls",
+      "unit": "",
+      "confidence": "source-backed county parcel and municipal plan",
+      "sourceIds": [
+        "kootenai-county-parcel-1210-e-3rd-ave",
+        "post-falls-water-system-master-plan-2018"
+      ],
+      "quoteOrSummary": "The county parcel identifies City of Post Falls ownership, and the City master plan includes Ford Rock in the municipal water-system inventory.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-ford-rock-tank-capacity",
+      "subjectType": "structure",
+      "subjectId": "post-falls-ford-rock-tank",
+      "field": "capacityGallons",
+      "value": 260000,
+      "unit": "gallons",
+      "confidence": "source-backed city master plan",
+      "sourceIds": [
+        "post-falls-water-system-master-plan-2018"
+      ],
+      "quoteOrSummary": "The City of Post Falls 2018 Water System Master Plan lists Ford Rock capacity as 0.26 million gallons.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-ford-rock-tank-constructed",
+      "subjectType": "structure",
+      "subjectId": "post-falls-ford-rock-tank",
+      "field": "constructedDisplay",
+      "value": "1979",
+      "unit": "",
+      "confidence": "source-backed city master plan",
+      "sourceIds": [
+        "post-falls-water-system-master-plan-2018"
+      ],
+      "quoteOrSummary": "The City master plan lists Ford Rock as a welded-steel ground-level tank constructed in 1979.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-ford-rock-tank-inactive",
+      "subjectType": "structure",
+      "subjectId": "post-falls-ford-rock-tank",
+      "field": "operationalStatus",
+      "value": "inactive; City reported no plans to return it to service",
+      "unit": "",
+      "confidence": "source-backed historical status",
+      "sourceIds": [
+        "post-falls-water-system-master-plan-2018"
+      ],
+      "quoteOrSummary": "The City's 2018 master plan repeatedly identifies Ford Rock as inactive and says the City had no plans to reactivate the tank.",
+      "reviewStatus": "reviewed",
+      "notes": [
+        "Seek a newer direct City confirmation before treating the 2018 statement as current operational status."
+      ]
+    },
+    {
+      "id": "claim-post-falls-reilly-reservoirs-observed",
+      "subjectType": "structure",
+      "subjectId": "post-falls-reilly-reservoirs",
+      "field": "fieldObserved",
+      "value": true,
+      "unit": "",
+      "confidence": "verified",
+      "sourceIds": [
+        "field-observation-2026-07-16-post-falls-reilly-reservoirs"
+      ],
+      "quoteOrSummary": "Six field photos supplied by Josiah Wilson document two circular concrete reservoirs at 47.71468, -116.88943 on 2026-07-16.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-reilly-reservoirs-name",
+      "subjectType": "structure",
+      "subjectId": "post-falls-reilly-reservoirs",
+      "field": "name",
+      "value": "Reilly Reservoirs",
+      "unit": "",
+      "confidence": "field and current municipal GIS verified",
+      "sourceIds": [
+        "field-observation-2026-07-16-post-falls-reilly-reservoirs",
+        "post-falls-public-gis-water-tanks-2026"
+      ],
+      "quoteOrSummary": "Public field signs identify Reilly Reservoirs, and the current City GIS labels the matching point REILLY TANKS 1 & 2.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-reilly-reservoirs-owner",
+      "subjectType": "structure",
+      "subjectId": "post-falls-reilly-reservoirs",
+      "field": "ownerOperator",
+      "value": "City of Post Falls",
+      "unit": "",
+      "confidence": "source-backed parcel, field sign, and municipal plan",
+      "sourceIds": [
+        "kootenai-county-parcel-4515-e-inverness-dr",
+        "field-observation-2026-07-16-post-falls-reilly-reservoirs",
+        "post-falls-water-system-master-plan-2018"
+      ],
+      "quoteOrSummary": "The county parcel identifies City ownership, public signs identify the City Water Division, and the City plan includes both Reilly tanks.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-reilly-1-capacity",
+      "subjectType": "structure",
+      "subjectId": "post-falls-reilly-reservoirs",
+      "field": "reilly1CapacityGallons",
+      "value": 1000000,
+      "unit": "gallons",
+      "confidence": "source-backed city master plan",
+      "sourceIds": [
+        "post-falls-water-system-master-plan-2018"
+      ],
+      "quoteOrSummary": "The City master-plan storage-tank table lists Reilly #1 capacity as 1.0 million gallons.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-reilly-2-capacity",
+      "subjectType": "structure",
+      "subjectId": "post-falls-reilly-reservoirs",
+      "field": "reilly2CapacityGallons",
+      "value": 1000000,
+      "unit": "gallons",
+      "confidence": "source-backed city master plan",
+      "sourceIds": [
+        "post-falls-water-system-master-plan-2018"
+      ],
+      "quoteOrSummary": "The City master-plan storage-tank table lists Reilly #2 capacity as 1.0 million gallons.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-reilly-1-constructed-1986",
+      "subjectType": "structure",
+      "subjectId": "post-falls-reilly-reservoirs",
+      "field": "reilly1ConstructedYear",
+      "value": 1986,
+      "unit": "year",
+      "confidence": "conflicting source-backed",
+      "sourceIds": [
+        "post-falls-water-system-master-plan-2018"
+      ],
+      "quoteOrSummary": "Table 1-3 of the 2018 City master plan lists Reilly #1 construction year as 1986.",
+      "reviewStatus": "reviewed",
+      "notes": [
+        "Conflicts with page 4-5 of the same plan, which lists 1983."
+      ]
+    },
+    {
+      "id": "claim-post-falls-reilly-1-constructed-1983",
+      "subjectType": "structure",
+      "subjectId": "post-falls-reilly-reservoirs",
+      "field": "reilly1ConstructedYear",
+      "value": 1983,
+      "unit": "year",
+      "confidence": "conflicting source-backed",
+      "sourceIds": [
+        "post-falls-water-system-master-plan-2018"
+      ],
+      "quoteOrSummary": "Page 4-5 of the 2018 City master plan describes Reilly #1 as constructed in 1983.",
+      "reviewStatus": "reviewed",
+      "notes": [
+        "Conflicts with Table 1-3 of the same plan, which lists 1986."
+      ]
+    },
+    {
+      "id": "claim-post-falls-reilly-2-constructed-1994",
+      "subjectType": "structure",
+      "subjectId": "post-falls-reilly-reservoirs",
+      "field": "reilly2ConstructedYear",
+      "value": 1994,
+      "unit": "year",
+      "confidence": "source-backed city master plan",
+      "sourceIds": [
+        "post-falls-water-system-master-plan-2018"
+      ],
+      "quoteOrSummary": "Both the inventory table and condition narrative in the 2018 City plan list Reilly #2 as constructed in 1994.",
+      "reviewStatus": "reviewed",
+      "notes": []
+    },
+    {
+      "id": "claim-post-falls-reilly-reservoirs-active-2018",
+      "subjectType": "structure",
+      "subjectId": "post-falls-reilly-reservoirs",
+      "field": "operationalStatus",
+      "value": "active in 2018 City water-system plan",
+      "unit": "",
+      "confidence": "source-backed historical status",
+      "sourceIds": [
+        "post-falls-water-system-master-plan-2018"
+      ],
+      "quoteOrSummary": "The 2018 plan counts the Reilly tanks among four active tanks and says they serve the Main and Highlands zones.",
+      "reviewStatus": "reviewed",
+      "notes": [
+        "Seek a newer direct City confirmation before treating the 2018 status as fully current."
+      ]
     }
   ]
 }

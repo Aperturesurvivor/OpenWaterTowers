@@ -7,7 +7,9 @@
       "type": "municipal water utility",
       "jurisdiction": "Coeur d'Alene, Idaho",
       "website": "https://www.cdaid.org/",
-      "publicWaterSystemIds": ["ID1280053"],
+      "publicWaterSystemIds": [
+        "ID1280053"
+      ],
       "sourceIds": [
         "cda-water-department-page",
         "cda-2012-water-plan"
@@ -17,6 +19,40 @@
         "2012 water plan identifies the City-operated public water system as PWS ID1280053.",
         "City Water Department page states the system has 11 wells, more than 42 million gallons per day pump capacity, approximately 6 million gallons of storage, over 20,000 active accounts, and 26 full-time employees.",
         "Idaho DEQ public water system list identifies COEUR D ALENE CITY OF as a community system serving 54,115 people with 20,174 connections."
+      ]
+    },
+    {
+      "id": "ross-point-water-district",
+      "name": "Ross Point Water District",
+      "type": "water district",
+      "jurisdiction": "Post Falls / Kootenai County, Idaho",
+      "website": "",
+      "publicWaterSystemIds": [
+        "ID1280163"
+      ],
+      "sourceIds": [
+        "kootenai-county-parcel-4814-e-hope-ave",
+        "idaho-deq-pws-list-2026"
+      ],
+      "notes": [
+        "Kootenai County parcel record identifies Ross Point Water District as owner/name for the 4814 E Hope Ave parcel.",
+        "Idaho DEQ public water system list identifies ID1280163 ROSS POINT WATER DIST as a community system serving 8,965 people with 3,586 connections."
+      ]
+    },
+    {
+      "id": "city-of-post-falls-water",
+      "name": "City of Post Falls Water Department",
+      "type": "municipal water utility",
+      "jurisdiction": "Post Falls, Idaho",
+      "website": "https://www.postfalls.gov/",
+      "publicWaterSystemIds": [
+        "ID1280147"
+      ],
+      "sourceIds": [
+        "idaho-deq-pws-list-2026"
+      ],
+      "notes": [
+        "Idaho DEQ public water system list identifies ID1280147 POST FALLS CITY OF as a community system serving 20,285 people with 8,114 connections."
       ]
     }
   ]

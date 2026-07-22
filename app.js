@@ -1,27 +1,39 @@
-const map = L.map("map", {
-  zoomControl: true,
-  scrollWheelZoom: true
-}).setView([47.73, -116.84086], 13);
+const narrowMapViewport = () => window.innerWidth <= 700;
+const mapPitch = () => narrowMapViewport() ? 54 : 62;
+const mapBearing = () => narrowMapViewport() ? -16 : -22;
 
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  maxZoom: 19,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(map);
-
-const towerIcon = L.divIcon({
-  className: "",
-  iconSize: [28, 28],
-  iconAnchor: [14, 28],
-  popupAnchor: [0, -26],
-  html: `
-    <span class="tower-marker" aria-hidden="true">
-      <svg viewBox="0 0 24 24">
-        <path d="M5 20h14" />
-        <path d="M7 20V9a5 5 0 0 1 10 0v11" />
-        <path d="M7 9h10" />
-      </svg>
-    </span>
-  `
+const map = new maplibregl.Map({
+  container: "map",
+  center: [-116.84086, 47.73],
+  zoom: 12.4,
+  pitch: mapPitch(),
+  bearing: mapBearing(),
+  antialias: true,
+  attributionControl: false,
+  style: {
+    version: 8,
+    sources: {
+      osm: {
+        type: "raster",
+        tiles: ["https://a.tile.openstreetmap.org/{z}/{x}/{y}.png", "https://b.tile.openstreetmap.org/{z}/{x}/{y}.png", "https://c.tile.openstreetmap.org/{z}/{x}/{y}.png"],
+        tileSize: 256,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+      }
+    },
+    layers: [
+      {
+        id: "osm",
+        type: "raster",
+        source: "osm",
+        paint: {
+          "raster-saturation": -0.18,
+          "raster-contrast": 0.08,
+          "raster-brightness-min": 0.08,
+          "raster-brightness-max": 0.96
+        }
+      }
+    ]
+  }
 });
 
 const numberFormatter = new Intl.NumberFormat("en-US");
@@ -30,12 +42,14 @@ const recordRoot = document.querySelector("#record");
 const template = document.querySelector("#recordTemplate");
 const panelResizer = document.querySelector("#panelResizer");
 const pdfButton = document.querySelector("#pdfButton");
-let featureLayer;
-let serviceAreaLayer;
 let towerData;
 let allFeatures = [];
 let serviceAreasById = new Map();
 let selectedFeature;
+let towerMarkers = [];
+
+map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), "top-left");
+map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
 
 function fact(label, value) {
   const wrapper = document.createElement("div");
@@ -293,6 +307,59 @@ function popupHtml(feature) {
   `;
 }
 
+function createTowerMarker(feature) {
+  const properties = feature.properties;
+  const isCandidate = properties.confidence === "candidate";
+  const markerEl = document.createElement("button");
+  markerEl.className = `tower-marker${isCandidate ? " candidate" : ""}`;
+  markerEl.type = "button";
+  markerEl.title = properties.name;
+  markerEl.setAttribute("aria-label", properties.name);
+  markerEl.innerHTML = `
+    <span class="tower-marker-shadow" aria-hidden="true"></span>
+    <span class="tower-marker-stem" aria-hidden="true"></span>
+    <span class="tower-marker-head" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <path d="M5 20h14" />
+        <path d="M7 20V9a5 5 0 0 1 10 0v11" />
+        <path d="M7 9h10" />
+      </svg>
+    </span>
+  `;
+
+  const marker = new maplibregl.Marker({
+    element: markerEl,
+    anchor: "bottom",
+    pitchAlignment: "map",
+    rotationAlignment: "map"
+  })
+    .setLngLat(feature.geometry.coordinates)
+    .setPopup(new maplibregl.Popup({
+      offset: 34,
+      closeButton: false,
+      className: "tower-popup"
+    }).setHTML(popupHtml(feature)))
+    .addTo(map);
+
+  markerEl.addEventListener("click", () => renderRecord(feature));
+  return marker;
+}
+
+function geometryBounds(bounds, coordinates) {
+  if (!Array.isArray(coordinates)) return bounds;
+  if (typeof coordinates[0] === "number" && typeof coordinates[1] === "number") {
+    bounds.extend(coordinates);
+    return bounds;
+  }
+  for (const child of coordinates) geometryBounds(bounds, child);
+  return bounds;
+}
+
+function waitForMapLoad() {
+  if (map.loaded()) return Promise.resolve();
+  return new Promise((resolve) => map.once("load", resolve));
+}
+
 async function loadGeoJson(path) {
   const response = await fetch(path);
   if (!response.ok) {
@@ -307,6 +374,7 @@ async function loadTowers() {
     loadGeoJson("data/candidates.geojson"),
     loadGeoJson("data/service-areas.geojson")
   ]);
+  await waitForMapLoad();
 
   serviceAreasById = new Map(
     serviceAreaData.features.map((feature) => [feature.id, feature])
@@ -314,25 +382,42 @@ async function loadTowers() {
 
   const drawableServiceAreas = serviceAreaData.features.filter((feature) => feature.geometry);
   if (drawableServiceAreas.length > 0) {
-    serviceAreaLayer = L.geoJSON({
-      type: "FeatureCollection",
-      features: drawableServiceAreas
-    }, {
-      style: {
-        color: "#376f95",
-        weight: 2,
-        opacity: 0.85,
-        fillColor: "#68a8c5",
-        fillOpacity: 0.16
-      },
-      onEachFeature(feature, layer) {
-        const properties = feature.properties;
-        layer.bindPopup(`
+    map.addSource("service-areas", {
+      type: "geojson",
+      data: {
+        type: "FeatureCollection",
+        features: drawableServiceAreas
+      }
+    });
+    map.addLayer({
+      id: "service-areas-fill",
+      type: "fill",
+      source: "service-areas",
+      paint: {
+        "fill-color": "#63a7c4",
+        "fill-opacity": 0.18
+      }
+    });
+    map.addLayer({
+      id: "service-areas-line",
+      type: "line",
+      source: "service-areas",
+      paint: {
+        "line-color": "#245f83",
+        "line-width": 2.2,
+        "line-opacity": 0.82
+      }
+    });
+    map.on("click", "service-areas-fill", (event) => {
+      const properties = event.features[0].properties;
+      new maplibregl.Popup({ closeButton: false })
+        .setLngLat(event.lngLat)
+        .setHTML(`
           <div class="popup-title">${properties.name}</div>
           <div class="popup-meta">${properties.areaType} · ${properties.geometryConfidence}</div>
-        `);
-      }
-    }).addTo(map);
+        `)
+        .addTo(map);
+    });
   }
 
   allFeatures = [...verifiedData.features, ...candidateData.features];
@@ -341,31 +426,36 @@ async function loadTowers() {
     features: allFeatures
   };
 
-  featureLayer = L.geoJSON(towerData, {
-    pointToLayer(feature, latlng) {
-      const isCandidate = feature.properties.confidence === "candidate";
-      const icon = L.divIcon({
-        className: "",
-        iconSize: [28, 28],
-        iconAnchor: [14, 28],
-        popupAnchor: [0, -26],
-        html: `
-          <span class="tower-marker${isCandidate ? " candidate" : ""}" aria-hidden="true">
-            <svg viewBox="0 0 24 24">
-              <path d="M5 20h14" />
-              <path d="M7 20V9a5 5 0 0 1 10 0v11" />
-              <path d="M7 9h10" />
-            </svg>
-          </span>
-        `
-      });
-      return L.marker(latlng, { icon, title: feature.properties.name });
-    },
-    onEachFeature(feature, layer) {
-      layer.bindPopup(popupHtml(feature));
-      layer.on("click", () => renderRecord(feature));
+  map.addSource("tower-sites", {
+    type: "geojson",
+    data: towerData
+  });
+  map.addLayer({
+    id: "tower-site-glow",
+    type: "circle",
+    source: "tower-sites",
+    paint: {
+      "circle-radius": ["interpolate", ["linear"], ["zoom"], 9, 8, 14, 18],
+      "circle-color": ["case", ["==", ["get", "confidence"], "candidate"], "#d97624", "#1676a3"],
+      "circle-opacity": 0.16,
+      "circle-blur": 0.35,
+      "circle-pitch-alignment": "map"
     }
-  }).addTo(map);
+  });
+  map.addLayer({
+    id: "tower-site-base",
+    type: "circle",
+    source: "tower-sites",
+    paint: {
+      "circle-radius": ["interpolate", ["linear"], ["zoom"], 9, 3.5, 14, 7],
+      "circle-color": ["case", ["==", ["get", "confidence"], "candidate"], "#8d4a13", "#0f5678"],
+      "circle-stroke-color": "#ffffff",
+      "circle-stroke-width": 1.5,
+      "circle-pitch-alignment": "map"
+    }
+  });
+
+  towerMarkers = allFeatures.map(createTowerMarker);
 
   const firstFeature = verifiedData.features[0];
   renderRecord(firstFeature);
@@ -373,19 +463,28 @@ async function loadTowers() {
 }
 
 function fitTowers() {
-  if (!featureLayer || !towerData) return;
+  if (!towerData?.features?.length) return;
 
-  if (towerData.features.length === 1) {
-    const [lng, lat] = towerData.features[0].geometry.coordinates;
-    map.setView([lat, lng], 12);
-    return;
+  const bounds = new maplibregl.LngLatBounds();
+  for (const feature of towerData.features) {
+    geometryBounds(bounds, feature.geometry.coordinates);
+  }
+  if (map.getSource("service-areas")) {
+    for (const feature of serviceAreasById.values()) {
+      if (feature.geometry) geometryBounds(bounds, feature.geometry.coordinates);
+    }
   }
 
-  let bounds = featureLayer.getBounds();
-  if (serviceAreaLayer) {
-    bounds = bounds.extend(serviceAreaLayer.getBounds());
-  }
-  map.fitBounds(bounds.pad(0.25), { maxZoom: 13 });
+  if (bounds.isEmpty()) return;
+  map.fitBounds(bounds, {
+    padding: narrowMapViewport()
+      ? { top: 42, right: 26, bottom: 84, left: 26 }
+      : { top: 72, right: 72, bottom: 96, left: 72 },
+    maxZoom: towerData.features.length === 1 ? 13 : narrowMapViewport() ? 11.7 : 12.8,
+    pitch: mapPitch(),
+    bearing: mapBearing(),
+    duration: 900
+  });
 }
 
 document.querySelector("#fitButton").addEventListener("click", () => {
@@ -404,7 +503,7 @@ function setInspectorWidth(width) {
   const nextWidth = Math.min(Math.max(width, 320), maxWidth);
   workspace.style.setProperty("--inspector-width", `${nextWidth}px`);
   localStorage.setItem("openWaterTowersInspectorWidth", String(nextWidth));
-  window.requestAnimationFrame(() => map.invalidateSize());
+  window.requestAnimationFrame(() => map.resize());
 }
 
 function initPanelResizer() {

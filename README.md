@@ -10,6 +10,9 @@ sources, add non-sensitive engineering/civic context, map approximate service
 areas when public data allows it, and publish evidence-backed records that
 happen to render on a map.
 
+The fuller project story, methodology, and current interpretation are at
+<https://josiahwilson.me/projects/openwatertowers/>.
+
 ## Goal
 
 Make water towers discoverable, documented, and historically legible without

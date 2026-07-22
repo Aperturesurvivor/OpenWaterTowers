@@ -6,11 +6,17 @@
       "id": "cda-industrial-standpipe",
       "geometry": {
         "type": "Point",
-        "coordinates": [-116.84086, 47.73]
+        "coordinates": [
+          -116.84086,
+          47.73
+        ]
       },
       "properties": {
         "name": "Industrial Standpipe",
-        "aliases": ["Industrial Park Standpipe", "Huetter WT"],
+        "aliases": [
+          "Industrial Park Standpipe",
+          "Huetter WT"
+        ],
         "area": "Northwest Coeur d'Alene / Huetter corridor",
         "nearbyIntersection": "Hanley Ave and N Carrington Ln",
         "addressDisplay": "unknown",
@@ -20,11 +26,17 @@
         "country": "United States",
         "operatorId": "city-of-coeur-dalene-water",
         "ownerOperator": "City of Coeur d'Alene Water Department",
-        "publicWaterSystemIds": ["ID1280053"],
+        "publicWaterSystemIds": [
+          "ID1280053"
+        ],
         "structureType": "Steel standpipe",
         "structureCategory": "standpipe",
-        "materials": ["steel"],
-        "serviceAreaIds": ["cda-upper-pressure-zone"],
+        "materials": [
+          "steel"
+        ],
+        "serviceAreaIds": [
+          "cda-upper-pressure-zone"
+        ],
         "serviceRole": "Provides enhanced storage, reserve capacity, and fire-flow support for the Upper Pressure Zone; the Upper Zone can also supply the General Pressure Zone via PRVs.",
         "pressureZone": "Upper Pressure Zone",
         "capacityGallons": 2000000,
@@ -65,7 +77,9 @@
           "cda-water-department-page",
           "field-observation-2026-06-14"
         ],
-        "photoIds": ["cda-industrial-standpipe-2026-06-14"],
+        "photoIds": [
+          "cda-industrial-standpipe-2026-06-14"
+        ],
         "claimIds": [
           "claim-cda-industrial-standpipe-capacity",
           "claim-cda-industrial-standpipe-height",
@@ -136,6 +150,702 @@
           {
             "label": "Field photos, 2026-06-14",
             "url": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "post-falls-hope-ave-water-tower",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.88327,
+          47.73669
+        ]
+      },
+      "properties": {
+        "name": "Hope Avenue Water Tower",
+        "aliases": [
+          "N Fennecus Road Water Tower Candidate"
+        ],
+        "area": "Post Falls / Huetter corridor",
+        "nearbyIntersection": "E Hope Ave and N Fennecus Road area",
+        "addressDisplay": "4814 E Hope Ave, Post Falls, ID 83854",
+        "city": "Post Falls",
+        "county": "Kootenai County",
+        "region": "Idaho",
+        "country": "United States",
+        "operatorId": "ross-point-water-district",
+        "ownerOperator": "Ross Point Water District",
+        "publicWaterSystemIds": [
+          "ID1280163"
+        ],
+        "structureType": "Elevated water tower",
+        "structureCategory": "water tower",
+        "materials": [
+          "steel"
+        ],
+        "serviceAreaIds": [],
+        "serviceRole": "Ross Point Water District water-storage facility; specific pressure zone/service role still needs a site-specific public source.",
+        "pressureZone": "unknown",
+        "capacityGallons": 1000000,
+        "capacityDisplay": "1 million gallons; site match inferred from parcel ownership and field observation",
+        "heightFeet": null,
+        "diameterFeet": null,
+        "baseElevationFeetMsl": null,
+        "overflowElevationFeetMsl": null,
+        "constructedDisplay": "unknown",
+        "constructedNote": "No public construction-year source has been matched yet.",
+        "engineer": "unknown",
+        "contractor": "unknown",
+        "fabricator": "unknown",
+        "paintCoatingHistory": [],
+        "rehabilitationHistory": [],
+        "projectIds": [],
+        "sourceIds": [
+          "osm-way-1020962054",
+          "field-observation-2026-06-30-post-falls-hope-ave",
+          "kootenai-county-parcel-4814-e-hope-ave",
+          "idaho-deq-pws-list-2026",
+          "rpa-water-demand-forecast-2014"
+        ],
+        "photoIds": [
+          "post-falls-hope-ave-water-tower-2026-06-30-1",
+          "post-falls-hope-ave-water-tower-2026-06-30-2",
+          "post-falls-hope-ave-water-tower-2026-06-30-3",
+          "post-falls-hope-ave-water-tower-2026-06-30-4"
+        ],
+        "claimIds": [
+          "claim-post-falls-hope-ave-water-tower-observed",
+          "claim-post-falls-hope-ave-water-tower-owner-operator",
+          "claim-post-falls-hope-ave-water-tower-pws-id",
+          "claim-post-falls-hope-ave-water-tower-capacity-likely-1mg"
+        ],
+        "status": "Field observed; parcel and water-system sources matched",
+        "confidence": "verified",
+        "observedAt": "2026-06-30",
+        "photo": "assets/post-falls-hope-ave-water-tower-2026-06-30-1.jpg",
+        "photoCredit": "Josiah Wilson, public roadside observation",
+        "publicNotes": [
+          "Light gray/green elevated steel water tower with a fluted cylindrical support column, broad cylindrical tank, and conical lower transition, observed from outside the fenced utility site.",
+          "Original OSM candidate was mapped as a building with man_made=water_tower at nearly the same coordinates.",
+          "Field observation confirms a visible elevated water-storage structure at 4814 E Hope Ave in Post Falls.",
+          "Operational details, site access details, and utility equipment details are intentionally omitted.",
+          "Kootenai County parcel GIS identifies the 4814 E Hope Ave parcel as Ross Point Water District and lists the water district field as Ross Point.",
+          "Idaho DEQ public water system list identifies Ross Point Water District as public water system ID1280163.",
+          "A 2014 Rathdrum Prairie Aquifer demand forecast report says Ross Point had recently completed a 1 MG tank; the match to this tower is inferred from the parcel source and field observation."
+        ],
+        "openQuestions": [
+          "Find a site-specific Ross Point Water District or engineering source confirming the Hope Ave tank capacity, construction year, height, and pressure/service role.",
+          "Confirm owner/operator, public water system ID, capacity, height, construction year, service role, and pressure zone from public records."
+        ],
+        "dataQuality": {
+          "lastReviewed": "2026-06-30",
+          "reviewStatus": "field observation, county parcel, DEQ PWS, and regional demand-forecast sources logged; site-specific utility record still open",
+          "sensitiveDataReviewed": true,
+          "geometryConfidence": "field observed approximate point from user-provided coordinates and OSM candidate geometry"
+        },
+        "sources": [
+          {
+            "label": "OpenStreetMap way 1020962054",
+            "url": "https://www.openstreetmap.org/way/1020962054"
+          },
+          {
+            "label": "Field photos, 2026-06-30",
+            "url": ""
+          },
+          {
+            "label": "Kootenai County GeoViewer parcel record for 4814 E Hope Ave",
+            "url": "https://map.kcgov.us/arcgis/rest/services/NewServices/Ownership_Display/MapServer/0"
+          },
+          {
+            "label": "Idaho DEQ public water system list, 2026",
+            "url": "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/24778"
+          },
+          {
+            "label": "Rathdrum Prairie Aquifer Water Demand Forecast Model, 2014",
+            "url": "https://iwrri.uidaho.edu/wp-content/uploads/sites/2/2020/09/201408_RPA_Demand_Forecast_GIT.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "post-falls-north-postfalls-standpipe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.94711,
+          47.73133
+        ]
+      },
+      "properties": {
+        "name": "North Postfalls Standpipe",
+        "aliases": [
+          "North Post Falls Standpipe",
+          "East Poleline Avenue Water Tower Candidate"
+        ],
+        "area": "Post Falls",
+        "nearbyIntersection": "N Spokane St and E Poleline Ave area",
+        "addressDisplay": "2476 N Spokane St, Post Falls, ID 83854; field signs show 2478 N Spokane St",
+        "city": "Post Falls",
+        "county": "Kootenai County",
+        "region": "Idaho",
+        "country": "United States",
+        "operatorId": "city-of-post-falls-water",
+        "ownerOperator": "City of Post Falls",
+        "publicWaterSystemIds": [
+          "ID1280147"
+        ],
+        "structureType": "Steel standpipe",
+        "structureCategory": "standpipe",
+        "materials": [
+          "steel"
+        ],
+        "serviceAreaIds": [],
+        "serviceRole": "City of Post Falls water-storage facility co-located with City of Post Falls Well #5 and Well #7; specific pressure zone/service role still needs a city source.",
+        "pressureZone": "unknown",
+        "capacityGallons": 3500000,
+        "capacityDisplay": "3.5 million gallons; site match to Tnemec Post Falls standpipe profile is likely but still needs site-specific confirmation",
+        "heightFeet": null,
+        "diameterFeet": null,
+        "baseElevationFeetMsl": null,
+        "overflowElevationFeetMsl": null,
+        "constructedDisplay": "2003",
+        "constructedNote": "Tnemec project profile says the Post Falls standpipe project was completed in August 2003; confirm site-specific match in city or engineering records.",
+        "engineer": "J-U-B Engineers",
+        "contractor": "Extreme Coatings, Inc.",
+        "fabricator": "Chicago Bridge & Iron",
+        "paintCoatingHistory": [
+          {
+            "dateDisplay": "2003",
+            "summary": "Tnemec profile describes exterior/interior coating systems for a 3.5 million gallon Post Falls potable-water standpipe."
+          }
+        ],
+        "rehabilitationHistory": [],
+        "projectIds": [],
+        "sourceIds": [
+          "osm-way-1313585479",
+          "field-observation-2026-06-30-post-falls-north-postfalls-standpipe",
+          "kootenai-county-parcel-n-spokane-standpipe",
+          "idaho-deq-pws-list-2026",
+          "tnemec-post-falls-standpipe-2003"
+        ],
+        "photoIds": [
+          "post-falls-north-postfalls-standpipe-2026-06-30-1",
+          "post-falls-north-postfalls-standpipe-2026-06-30-2",
+          "post-falls-north-postfalls-standpipe-2026-06-30-3"
+        ],
+        "claimIds": [
+          "claim-post-falls-north-postfalls-standpipe-observed",
+          "claim-post-falls-north-postfalls-standpipe-owner-operator",
+          "claim-post-falls-north-postfalls-standpipe-pws-id",
+          "claim-post-falls-north-postfalls-standpipe-capacity-likely-35mg",
+          "claim-post-falls-north-postfalls-standpipe-constructed-likely-2003"
+        ],
+        "status": "Field observed; parcel, DEQ, and project-profile sources matched",
+        "confidence": "verified",
+        "observedAt": "2026-06-30",
+        "photo": "assets/post-falls-north-postfalls-standpipe-2026-06-30-1.jpg",
+        "photoCredit": "Josiah Wilson, public roadside observation",
+        "publicNotes": [
+          "Light blue steel standpipe observed from outside the fenced utility site.",
+          "Visible public signs identify the structure as North Postfalls Standpipe and identify City of Post Falls Well #5 and Well #7 at the same site.",
+          "OpenStreetMap candidate way 1313585479 is at nearly the same coordinates.",
+          "Kootenai County parcel GIS identifies the containing parcel as POST FALLS, CITY OF.",
+          "Idaho DEQ public water system list identifies City of Post Falls as public water system ID1280147.",
+          "A Tnemec project profile describes a 3.5 million gallon Post Falls potable-water standpipe completed in August 2003; the match to this site is likely but still needs a site-specific city or engineering source.",
+          "Operational details, site access details, and utility equipment details are intentionally omitted."
+        ],
+        "openQuestions": [
+          "Find a site-specific City of Post Falls or engineering source confirming the North Postfalls Standpipe capacity, construction date, height, and pressure/service role.",
+          "Resolve the address display discrepancy between the user-provided 2476 N Spokane St and field signs showing 2478 N Spokane St."
+        ],
+        "dataQuality": {
+          "lastReviewed": "2026-06-30",
+          "reviewStatus": "field observation, OSM candidate, county parcel, DEQ PWS, and coating project profile logged; site-specific city source still open",
+          "sensitiveDataReviewed": true,
+          "geometryConfidence": "field observed approximate point from user-provided coordinates and OSM candidate geometry"
+        },
+        "sources": [
+          {
+            "label": "OpenStreetMap way 1313585479",
+            "url": "https://www.openstreetmap.org/way/1313585479"
+          },
+          {
+            "label": "Field photos, 2026-06-30",
+            "url": ""
+          },
+          {
+            "label": "Kootenai County GeoViewer parcel record near N Spokane St standpipe",
+            "url": "https://map.kcgov.us/arcgis/rest/services/NewServices/Ownership_Display/MapServer/0"
+          },
+          {
+            "label": "Idaho DEQ public water system list, 2026",
+            "url": "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/24778"
+          },
+          {
+            "label": "Tnemec Post Falls Standpipe project profile",
+            "url": "https://www.tnemec.com/projects/post-falls-standpipe/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "post-falls-beck-road-standpipe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.02531,
+          47.70884
+        ]
+      },
+      "properties": {
+        "name": "Beck Road Standpipe",
+        "aliases": [
+          "West Post Falls Water Tower Candidate - 47.70883, -117.02533"
+        ],
+        "area": "West Post Falls / state-line corridor",
+        "nearbyIntersection": "351 N Beck Road area",
+        "addressDisplay": "351 N Beck Rd, Post Falls, ID",
+        "city": "Post Falls",
+        "county": "Kootenai County",
+        "region": "Idaho",
+        "country": "United States",
+        "operatorId": "city-of-post-falls-water",
+        "ownerOperator": "City of Post Falls",
+        "publicWaterSystemIds": [
+          "ID1280147"
+        ],
+        "structureType": "Steel standpipe",
+        "structureCategory": "standpipe",
+        "materials": [
+          "steel"
+        ],
+        "serviceAreaIds": [],
+        "serviceRole": "City of Post Falls water-storage facility; specific pressure zone and service role still need a site-specific public source.",
+        "pressureZone": "unknown",
+        "capacityGallons": null,
+        "capacityDisplay": "unknown",
+        "heightFeet": null,
+        "diameterFeet": null,
+        "baseElevationFeetMsl": null,
+        "overflowElevationFeetMsl": null,
+        "constructedDisplay": "unknown",
+        "constructedNote": "No public construction-year source has been matched yet.",
+        "engineer": "unknown",
+        "contractor": "unknown",
+        "fabricator": "unknown",
+        "paintCoatingHistory": [],
+        "rehabilitationHistory": [],
+        "projectIds": [],
+        "sourceIds": [
+          "field-observation-2026-07-16-post-falls-beck-road-standpipe",
+          "kootenai-county-parcel-351-n-beck-rd",
+          "idaho-deq-pws-list-2026"
+        ],
+        "photoIds": [
+          "post-falls-beck-road-standpipe-2026-07-16-1"
+        ],
+        "claimIds": [
+          "claim-post-falls-beck-road-standpipe-observed",
+          "claim-post-falls-beck-road-standpipe-owner-operator"
+        ],
+        "status": "Field observed; county parcel and water-system sources matched",
+        "confidence": "verified",
+        "observedAt": "2026-07-16",
+        "photo": "assets/post-falls-beck-road-standpipe-2026-07-16-1.jpg",
+        "photoCredit": "Josiah Wilson, public field observation",
+        "publicNotes": [
+          "Tall light-blue cylindrical steel standpipe observed from outside the fenced utility site.",
+          "The user-supplied point at 47.70884, -117.02531 nearly exactly matches the earlier map-identified candidate at 47.70883, -117.02533.",
+          "Kootenai County parcel GIS identifies the containing parcel as City of Post Falls property at 351 N Beck Rd.",
+          "Idaho DEQ's public water system list identifies City of Post Falls as public water system ID1280147.",
+          "Operational details, site-access details, and utility-equipment details are intentionally omitted."
+        ],
+        "openQuestions": [
+          "Find a site-specific City of Post Falls or engineering source confirming the standpipe's official name, capacity, height, construction year, and pressure/service role."
+        ],
+        "dataQuality": {
+          "lastReviewed": "2026-07-16",
+          "reviewStatus": "field observation, county parcel, and DEQ public-water-system sources logged; site-specific city or engineering record still open",
+          "sensitiveDataReviewed": true,
+          "geometryConfidence": "field observed approximate point from user-provided coordinates"
+        },
+        "sources": [
+          {
+            "label": "Field photo, 2026-07-16",
+            "url": ""
+          },
+          {
+            "label": "Kootenai County parcel GIS record for 351 N Beck Rd",
+            "url": "https://map.kcgov.us/arcgis/rest/services/KC_Dynamic_Layers_KE_Unfil/MapServer/11"
+          },
+          {
+            "label": "Idaho DEQ public water system list, 2026",
+            "url": "https://www2.deq.idaho.gov/admin/LEIA/api/document/download/24778"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "post-falls-spokane-street-water-tower",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.94837,
+          47.70659
+        ]
+      },
+      "properties": {
+        "name": "Spokane Street Water Tower",
+        "aliases": [
+          "Post Falls Water Tower",
+          "Downtown Post Falls Water Tower",
+          "N Spokane Street Water Tower Candidate"
+        ],
+        "area": "Downtown Post Falls",
+        "nearbyIntersection": "N Spokane St between First and Second avenues",
+        "addressDisplay": "107 N Spokane St, Post Falls, ID",
+        "city": "Post Falls",
+        "county": "Kootenai County",
+        "region": "Idaho",
+        "country": "United States",
+        "operatorId": "city-of-post-falls-water",
+        "ownerOperator": "City of Post Falls",
+        "publicWaterSystemIds": [
+          "ID1280147"
+        ],
+        "structureType": "Elevated steel water tower",
+        "structureCategory": "water tower",
+        "materials": [
+          "steel"
+        ],
+        "serviceAreaIds": [],
+        "serviceRole": "Historic City of Post Falls water-storage tower; retired from water service and retained as a downtown landmark.",
+        "pressureZone": "not applicable; retired",
+        "capacityGallons": null,
+        "capacityDisplay": "unknown",
+        "heightFeet": null,
+        "diameterFeet": null,
+        "baseElevationFeetMsl": null,
+        "overflowElevationFeetMsl": null,
+        "constructedDisplay": "1908",
+        "constructedNote": "The City of Post Falls public works director identified 1908 as the construction year in 2025 reporting on the tower's preservation options.",
+        "engineer": "unknown",
+        "contractor": "unknown",
+        "fabricator": "unknown",
+        "paintCoatingHistory": [],
+        "rehabilitationHistory": [
+          {
+            "dateDisplay": "2025-2026 (planned)",
+            "summary": "City and community partners evaluated preservation work; Post Falls Rotary launched a restoration fundraising campaign in July 2026."
+          }
+        ],
+        "projectIds": [],
+        "sourceIds": [
+          "osm-way-1021478881",
+          "field-observation-2026-07-16-post-falls-spokane-street-water-tower",
+          "kootenai-county-parcel-107-n-spokane-st",
+          "cdapress-2025-09-06-spokane-street-water-tower",
+          "cdapress-2026-07-14-post-falls-water-tower-preservation",
+          "idaho-deq-pws-list-2026"
+        ],
+        "photoIds": [
+          "post-falls-spokane-street-water-tower-2026-07-16-1",
+          "post-falls-spokane-street-water-tower-2026-07-16-2"
+        ],
+        "claimIds": [
+          "claim-post-falls-spokane-street-water-tower-observed",
+          "claim-post-falls-spokane-street-water-tower-owner",
+          "claim-post-falls-spokane-street-water-tower-constructed-1908",
+          "claim-post-falls-spokane-street-water-tower-retired",
+          "claim-post-falls-spokane-street-water-tower-preservation-campaign"
+        ],
+        "status": "Field observed; retired from water service; preservation campaign active",
+        "confidence": "verified",
+        "observedAt": "2026-07-16",
+        "photo": "assets/post-falls-spokane-street-water-tower-2026-07-16-1.jpg",
+        "photoCredit": "Josiah Wilson, public downtown observation",
+        "publicNotes": [
+          "Historic elevated steel water tower with a riveted tank and lattice support legs, observed from a public downtown viewpoint.",
+          "The user-supplied point at 47.70659, -116.94837 matches the earlier OpenStreetMap candidate within a few meters.",
+          "Kootenai County parcel GIS identifies the small tower parcel at 107 N Spokane St as City of Post Falls property.",
+          "The City of Post Falls public works director said the tower was built in 1908 and has not been a functional water-division holding for years because its pressure does not meet modern system standards.",
+          "A July 2026 preservation campaign announcement confirms that the tower no longer stores water and is being treated as a historic community landmark.",
+          "The site became a small public park through the city's downtown planning work."
+        ],
+        "openQuestions": [
+          "Find the original tank capacity, engineer, fabricator, and precise retirement date in city or historical records.",
+          "Track the 2026 preservation campaign and planned restoration outcome.",
+          "Confirm whether a National Register of Historic Places nomination was ever completed."
+        ],
+        "dataQuality": {
+          "lastReviewed": "2026-07-16",
+          "reviewStatus": "field observation, county parcel, current city-official reporting, and preservation-campaign reporting logged; historic design details remain open",
+          "sensitiveDataReviewed": true,
+          "geometryConfidence": "field observed point from user-provided coordinates; matches OSM candidate geometry"
+        },
+        "sources": [
+          {
+            "label": "OpenStreetMap way 1021478881",
+            "url": "https://www.openstreetmap.org/way/1021478881"
+          },
+          {
+            "label": "Field photos, 2026-07-16",
+            "url": ""
+          },
+          {
+            "label": "Kootenai County parcel GIS record for 107 N Spokane St",
+            "url": "https://map.kcgov.us/arcgis/rest/services/KC_Dynamic_Layers_KE_Unfil/MapServer/11"
+          },
+          {
+            "label": "Post Falls considers fundraising to preserve Spokane Street tower, 2025-09-06",
+            "url": "https://cdapress.com/news/2025/sep/06/post-falls-looks-to-fundraise-to-keep-spokane-street-tower/"
+          },
+          {
+            "label": "Post Falls Rotary launches campaign to preserve historic water tower, 2026-07-14",
+            "url": "https://cdapress.com/news/2026/jul/14/post-falls-rotary-launches-campaign-to-preserve-historic-water-tower/"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "post-falls-ford-rock-tank",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.93231,
+          47.70687
+        ]
+      },
+      "properties": {
+        "name": "Ford Rock Tank",
+        "aliases": [
+          "Ford Rock Water Tank",
+          "Post Falls Water Tower Candidate - 47.70687, -116.93231"
+        ],
+        "area": "Ford Rock / east Post Falls",
+        "nearbyIntersection": "E 3rd Ave / Ford Rock area",
+        "addressDisplay": "1210 E 3rd Ave, Post Falls, ID",
+        "city": "Post Falls",
+        "county": "Kootenai County",
+        "region": "Idaho",
+        "country": "United States",
+        "operatorId": "city-of-post-falls-water",
+        "ownerOperator": "City of Post Falls",
+        "publicWaterSystemIds": [
+          "ID1280147"
+        ],
+        "structureType": "Welded steel ground-level storage tank",
+        "structureCategory": "ground-level reservoir",
+        "materials": [
+          "welded steel"
+        ],
+        "serviceAreaIds": [],
+        "serviceRole": "Former City of Post Falls Main Zone storage tank; inactive in the City's 2018 water-system plan, which stated there were no plans to return it to service.",
+        "pressureZone": "Main Zone (historical; inactive)",
+        "capacityGallons": 260000,
+        "capacityDisplay": "260,000 gallons",
+        "heightFeet": null,
+        "diameterFeet": null,
+        "baseElevationFeetMsl": 2275,
+        "overflowElevationFeetMsl": 2299,
+        "constructedDisplay": "1979",
+        "constructedNote": "City of Post Falls 2018 Water System Master Plan lists Ford Rock as a 0.26 MG welded-steel ground-level tank constructed in 1979.",
+        "engineer": "unknown",
+        "contractor": "unknown",
+        "fabricator": "unknown",
+        "paintCoatingHistory": [],
+        "rehabilitationHistory": [],
+        "projectIds": [],
+        "sourceIds": [
+          "field-observation-2026-07-16-post-falls-ford-rock-tank",
+          "kootenai-county-parcel-1210-e-3rd-ave",
+          "post-falls-water-system-master-plan-2018",
+          "post-falls-public-gis-water-tanks-2026",
+          "idaho-deq-pws-list-2026"
+        ],
+        "photoIds": [
+          "post-falls-ford-rock-tank-2026-07-16-1",
+          "post-falls-ford-rock-tank-2026-07-16-2",
+          "post-falls-ford-rock-tank-2026-07-16-3"
+        ],
+        "claimIds": [
+          "claim-post-falls-ford-rock-tank-observed",
+          "claim-post-falls-ford-rock-tank-name",
+          "claim-post-falls-ford-rock-tank-owner",
+          "claim-post-falls-ford-rock-tank-capacity",
+          "claim-post-falls-ford-rock-tank-constructed",
+          "claim-post-falls-ford-rock-tank-inactive"
+        ],
+        "status": "Field observed; inactive according to City water-system plan",
+        "confidence": "verified",
+        "observedAt": "2026-07-16",
+        "photo": "assets/post-falls-ford-rock-tank-2026-07-16-1.jpg",
+        "photoCredit": "Josiah Wilson, public field observation",
+        "publicNotes": [
+          "Low cylindrical steel tank painted light blue and green with a large Post Falls mural, observed from outside the secured enclosure.",
+          "The user-supplied coordinates exactly match the earlier map-identified candidate and are within several meters of the City's current GIS point labeled FORD ROCK TANK.",
+          "Kootenai County parcel GIS identifies the containing parcel at 1210 E 3rd Ave as City of Post Falls property.",
+          "The City's 2018 Water System Master Plan lists Ford Rock as a 260,000-gallon welded-steel tank built in 1979 in the Main Zone.",
+          "The same plan identifies Ford Rock as inactive and states that the City had no plans to return it to water service.",
+          "The master plan lists a 65-foot diameter, while the current public GIS layer lists 60 feet; diameter is left unresolved pending a more precise record."
+        ],
+        "openQuestions": [
+          "Confirm from a post-2018 City source that the tank remains inactive.",
+          "Resolve the 60-foot versus 65-foot diameter discrepancy between the current GIS layer and 2018 master plan.",
+          "Find the tank's precise retirement date, engineer, contractor, and fabricator."
+        ],
+        "dataQuality": {
+          "lastReviewed": "2026-07-16",
+          "reviewStatus": "field observation, current City GIS identity, county parcel ownership, and 2018 City master-plan specifications logged; current inactive status should receive a newer direct confirmation",
+          "sensitiveDataReviewed": true,
+          "geometryConfidence": "field observed user-provided point; closely matches current City GIS tank point"
+        },
+        "sources": [
+          {
+            "label": "Field photos, 2026-07-16",
+            "url": ""
+          },
+          {
+            "label": "Kootenai County parcel GIS record for 1210 E 3rd Ave",
+            "url": "https://map.kcgov.us/arcgis/rest/services/KC_Dynamic_Layers_KE_Unfil/MapServer/11"
+          },
+          {
+            "label": "City of Post Falls Water System Master Plan, 2018",
+            "url": "https://www.postfalls.gov/DocumentCenter/View/670/Water-System-Master-Plan-PDF"
+          },
+          {
+            "label": "City of Post Falls public GIS water-tank layer",
+            "url": "https://gis.postfalls.gov/server/rest/services/GIS2/PublicWorks/MapServer/9"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "post-falls-reilly-reservoirs",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.88943,
+          47.71468
+        ]
+      },
+      "properties": {
+        "name": "Reilly Reservoirs",
+        "aliases": [
+          "Reilly Tanks 1 & 2",
+          "Reilly Reservoir",
+          "Post Falls Possible Twin Water Tower Candidate - 47.71471, -116.88937"
+        ],
+        "area": "East Post Falls / Highlands area",
+        "nearbyIntersection": "4515 E Inverness Dr area",
+        "addressDisplay": "4515 E Inverness Dr, Post Falls, ID",
+        "city": "Post Falls",
+        "county": "Kootenai County",
+        "region": "Idaho",
+        "country": "United States",
+        "operatorId": "city-of-post-falls-water",
+        "ownerOperator": "City of Post Falls",
+        "publicWaterSystemIds": [
+          "ID1280147"
+        ],
+        "structureType": "Twin precast-concrete ground-level reservoirs",
+        "structureCategory": "reservoir pair",
+        "materials": [
+          "precast concrete"
+        ],
+        "serviceAreaIds": [],
+        "serviceRole": "Active storage for the Main Zone and Highlands Zone in the City's 2018 water-system plan.",
+        "pressureZone": "Main Zone; supports Highlands Zone",
+        "capacityGallons": 2000000,
+        "capacityDisplay": "2.0 million gallons combined; 1.0 million gallons each",
+        "heightFeet": null,
+        "diameterFeet": null,
+        "baseElevationFeetMsl": 2332,
+        "overflowElevationFeetMsl": 2356,
+        "constructedDisplay": "Reilly #1: 1983/1986; Reilly #2: 1994",
+        "constructedNote": "The 2018 master-plan inventory table lists Reilly #1 as 1986, while the condition narrative lists 1983. Both sections list Reilly #2 as 1994.",
+        "engineer": "unknown",
+        "contractor": "unknown",
+        "fabricator": "unknown",
+        "paintCoatingHistory": [],
+        "rehabilitationHistory": [],
+        "projectIds": [],
+        "sourceIds": [
+          "field-observation-2026-07-16-post-falls-reilly-reservoirs",
+          "kootenai-county-parcel-4515-e-inverness-dr",
+          "post-falls-water-system-master-plan-2018",
+          "post-falls-public-gis-water-tanks-2026",
+          "idaho-deq-pws-list-2026"
+        ],
+        "photoIds": [
+          "post-falls-reilly-reservoirs-2026-07-16-1",
+          "post-falls-reilly-reservoirs-2026-07-16-2",
+          "post-falls-reilly-reservoirs-2026-07-16-3",
+          "post-falls-reilly-reservoirs-2026-07-16-4",
+          "post-falls-reilly-reservoirs-2026-07-16-5",
+          "post-falls-reilly-reservoirs-2026-07-16-6"
+        ],
+        "claimIds": [
+          "claim-post-falls-reilly-reservoirs-observed",
+          "claim-post-falls-reilly-reservoirs-name",
+          "claim-post-falls-reilly-reservoirs-owner",
+          "claim-post-falls-reilly-1-capacity",
+          "claim-post-falls-reilly-2-capacity",
+          "claim-post-falls-reilly-1-constructed-1986",
+          "claim-post-falls-reilly-1-constructed-1983",
+          "claim-post-falls-reilly-2-constructed-1994",
+          "claim-post-falls-reilly-reservoirs-active-2018"
+        ],
+        "status": "Field observed; active in 2018 City water-system plan; current GIS matched",
+        "confidence": "verified",
+        "observedAt": "2026-07-16",
+        "photo": "assets/post-falls-reilly-reservoirs-2026-07-16-5.jpg",
+        "photoCredit": "Josiah Wilson, public roadside observation",
+        "publicNotes": [
+          "Two large circular concrete reservoirs observed from outside the secured site; public signs identify Reilly Reservoirs and City of Post Falls Water Division.",
+          "The posted address is 4515 E Inverness Dr, matching the Kootenai County parcel record for City of Post Falls ownership.",
+          "The user-supplied point is within several meters of the current City GIS feature labeled REILLY TANKS 1 & 2.",
+          "The City's 2018 Water System Master Plan lists each reservoir at 1.0 million gallons and identifies the pair as active storage serving the Main and Highlands zones.",
+          "The plan lists both tanks as precast concrete with base elevation 2,332 feet and overflow elevation 2,356 feet.",
+          "Reilly #1 has a construction-date conflict inside the same plan: the inventory table says 1986, while the condition narrative says 1983. Reilly #2 is consistently listed as 1994.",
+          "The master plan lists an 85-foot diameter for each tank, while the combined current GIS feature lists 120 feet; diameter is left unresolved pending clarification."
+        ],
+        "openQuestions": [
+          "Confirm current active status from a post-2018 City source.",
+          "Resolve Reilly #1's 1983 versus 1986 construction-year conflict.",
+          "Resolve the 85-foot-per-tank versus 120-foot combined-GIS diameter discrepancy.",
+          "Find the engineer, contractor, and precast-tank supplier for each reservoir."
+        ],
+        "dataQuality": {
+          "lastReviewed": "2026-07-16",
+          "reviewStatus": "field observation, current City GIS identity, county parcel ownership, and 2018 City plan specifications logged; date and diameter conflicts preserved explicitly",
+          "sensitiveDataReviewed": true,
+          "geometryConfidence": "field observed user-provided point; closely matches current City GIS reservoir-pair point"
+        },
+        "sources": [
+          {
+            "label": "Field photos, 2026-07-16",
+            "url": ""
+          },
+          {
+            "label": "Kootenai County parcel GIS record for 4515 E Inverness Dr",
+            "url": "https://map.kcgov.us/arcgis/rest/services/KC_Dynamic_Layers_KE_Unfil/MapServer/11"
+          },
+          {
+            "label": "City of Post Falls Water System Master Plan, 2018",
+            "url": "https://www.postfalls.gov/DocumentCenter/View/670/Water-System-Master-Plan-PDF"
+          },
+          {
+            "label": "City of Post Falls public GIS water-tank layer",
+            "url": "https://gis.postfalls.gov/server/rest/services/GIS2/PublicWorks/MapServer/9"
           }
         ]
       }
