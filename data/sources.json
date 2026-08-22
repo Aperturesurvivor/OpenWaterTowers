@@ -257,13 +257,15 @@
       "url": "https://iwrri.uidaho.edu/wp-content/uploads/sites/2/2020/09/201408_RPA_Demand_Forecast_GIT.pdf",
       "archiveUrl": "",
       "accessedAt": "2026-06-30",
-      "linkStatus": "live",
+      "linkStatus": "broken",
+      "lastCheckedAt": "2026-08-21",
       "licenseNotes": "Public university research report; cite rather than mirror until reuse terms are reviewed.",
       "relevantPages": [
         "30"
       ],
       "notes": [
-        "Page 30 states that Ross Point recently completed a 1 MG tank. Treat the match to the Hope Ave tower as inferred from county parcel ownership and field observation until a site-specific utility document is found."
+        "Page 30 states that Ross Point recently completed a 1 MG tank. Treat the match to the Hope Ave tower as inferred from county parcel ownership and field observation until a site-specific utility document is found.",
+        "The official publisher URL returned 404 on 2026-08-21. No authoritative replacement or publisher-hosted archive was located; do not present this link as currently retrievable."
       ]
     },
     {
@@ -495,7 +497,9 @@
       "url": "https://www.postfalls.gov/DocumentCenter/View/670/Water-System-Master-Plan-PDF",
       "archiveUrl": "",
       "accessedAt": "2026-07-16",
-      "linkStatus": "live",
+      "linkStatus": "intermittent",
+      "lastCheckedAt": "2026-08-21",
+      "stableLandingPageUrl": "https://www.postfalls.gov/176/Engineering",
       "licenseNotes": "Public city planning document; cite rather than mirror until reuse terms are reviewed.",
       "relevantPages": [
         "1-6",
@@ -509,7 +513,8 @@
         "Pages 1-6, 3-7, 4-1, and 4-5 identify Ford Rock as inactive; page 4-5 states that the City had no plans to put it back into service.",
         "Table 1-3 lists Reilly #1 and #2 as active 1.0 MG precast-concrete Main Zone tanks, with base elevation 2,332 feet, overflow elevation 2,356 feet, and 85-foot diameters.",
         "Table 1-3 dates Reilly #1 to 1986 and Reilly #2 to 1994; page 4-5 instead dates Reilly #1 to 1983 while retaining 1994 for Reilly #2.",
-        "Page 3-7 identifies the Reilly Tanks as active storage serving the Main and Highlands zones."
+        "Page 3-7 identifies the Reilly Tanks as active storage serving the Main and Highlands zones.",
+        "The direct PDF connection reset during a 2026-08-21 check. The current official City of Post Falls Engineering page still lists and links the Water System Master Plan."
       ]
     },
     {

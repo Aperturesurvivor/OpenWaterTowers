@@ -15,7 +15,7 @@ const map = new maplibregl.Map({
     sources: {
       osm: {
         type: "raster",
-        tiles: ["https://a.tile.openstreetmap.org/{z}/{x}/{y}.png", "https://b.tile.openstreetmap.org/{z}/{x}/{y}.png", "https://c.tile.openstreetmap.org/{z}/{x}/{y}.png"],
+        tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
         tileSize: 256,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
       }
@@ -341,6 +341,10 @@ function createTowerMarker(feature) {
     }).setHTML(popupHtml(feature)))
     .addTo(map);
 
+  // MapLibre assigns a generic label while initializing the marker. Restore
+  // the record-specific label after addTo() so assistive technology can
+  // distinguish markers without relying on their visual position.
+  markerEl.setAttribute("aria-label", properties.name);
   markerEl.addEventListener("click", () => renderRecord(feature));
   return marker;
 }

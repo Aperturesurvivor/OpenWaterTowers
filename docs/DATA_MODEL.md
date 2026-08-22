@@ -124,9 +124,16 @@ Useful fields:
 - `archiveUrl`
 - `accessedAt`
 - `linkStatus`
+- `lastCheckedAt`
+- `stableLandingPageUrl`
 - `licenseNotes`
 - `relevantPages`
 - `notes`
+
+When a direct document URL is unstable, `stableLandingPageUrl` may identify an
+authoritative publisher page that currently links the document. It is not a
+substitute for the cited document and must not point to a search result or an
+unofficial mirror.
 
 ### Photos
 

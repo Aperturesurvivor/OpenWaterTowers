@@ -6,3 +6,5 @@ dist/
 build/
 .cache/
 *.log
+__pycache__/
+*.py[cod]

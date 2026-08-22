@@ -1,5 +1,13 @@
 {
   "type": "FeatureCollection",
+  "licensing": {
+    "type": "collective database",
+    "notice": "Feature-level licensing is recorded in properties.dataLicense and properties.dataAttribution. See DATA_LICENSE.md.",
+    "licenses": [
+      "CC-BY-4.0",
+      "ODbL-1.0"
+    ]
+  },
   "features": [
     {
       "type": "Feature",
@@ -12,6 +20,8 @@
         ]
       },
       "properties": {
+        "dataLicense": "ODbL-1.0",
+        "dataAttribution": "OpenStreetMap contributors",
         "name": "Hiawatha Avenue Water Tower Candidate",
         "area": "Rathdrum / north Kootenai County",
         "nearbyIntersection": "Hiawatha Avenue area",
@@ -47,6 +57,8 @@
         ]
       },
       "properties": {
+        "dataLicense": "ODbL-1.0",
+        "dataAttribution": "OpenStreetMap contributors",
         "name": "East Coeur d'Alene Water Tower Candidate",
         "area": "East Coeur d'Alene",
         "nearbyIntersection": "Kootenai County / east Coeur d'Alene area",
@@ -82,6 +94,8 @@
         ]
       },
       "properties": {
+        "dataLicense": "ODbL-1.0",
+        "dataAttribution": "OpenStreetMap contributors",
         "name": "Rockridge Lane Water Tower Candidate A",
         "area": "Dalton Gardens / Hayden edge",
         "nearbyIntersection": "Rockridge Lane area",
@@ -117,6 +131,8 @@
         ]
       },
       "properties": {
+        "dataLicense": "ODbL-1.0",
+        "dataAttribution": "OpenStreetMap contributors",
         "name": "Rockridge Lane Water Tower Candidate B",
         "area": "Dalton Gardens / Hayden edge",
         "nearbyIntersection": "Rockridge Lane area",
@@ -152,6 +168,8 @@
         ]
       },
       "properties": {
+        "dataLicense": "ODbL-1.0",
+        "dataAttribution": "OpenStreetMap contributors",
         "name": "East Sky Harbor Drive Water Tower Candidate",
         "area": "Southeast Coeur d'Alene / Fernan edge",
         "nearbyIntersection": "East Sky Harbor Drive area",
@@ -187,6 +205,8 @@
         ]
       },
       "properties": {
+        "dataLicense": "CC-BY-4.0",
+        "dataAttribution": "OpenWaterTowers contributors",
         "name": "Hayden / Dalton Gardens Water Tower Candidate - 47.73802, -116.79733",
         "area": "Hayden / Dalton Gardens edge",
         "nearbyIntersection": "Map-identified point near 47.73802, -116.79733",
@@ -222,6 +242,8 @@
         ]
       },
       "properties": {
+        "dataLicense": "CC-BY-4.0",
+        "dataAttribution": "OpenWaterTowers contributors",
         "name": "South Coeur d'Alene Water Tower Candidate - 47.66558, -116.77415",
         "area": "South Coeur d'Alene / Fernan-Harrison corridor",
         "nearbyIntersection": "Map-identified point near 47.66558, -116.77415",
@@ -257,6 +279,8 @@
         ]
       },
       "properties": {
+        "dataLicense": "CC-BY-4.0",
+        "dataAttribution": "OpenWaterTowers contributors",
         "name": "Northwest Coeur d'Alene Water Tower Candidate - 47.72318, -116.86993",
         "area": "Northwest Coeur d'Alene / Huetter corridor",
         "nearbyIntersection": "Map-identified point near 47.72318, -116.86993",
@@ -301,6 +325,8 @@
         ]
       },
       "properties": {
+        "dataLicense": "CC-BY-4.0",
+        "dataAttribution": "OpenWaterTowers contributors",
         "name": "North Hayden Water Tower Candidate - 47.77071, -116.79144",
         "area": "North Hayden / north Kootenai County",
         "nearbyIntersection": "Map-identified point near 47.77071, -116.79144",
