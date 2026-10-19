@@ -10,8 +10,7 @@ sources, add non-sensitive engineering/civic context, map approximate service
 areas when public data allows it, and publish evidence-backed records that
 happen to render on a map.
 
-The fuller project story, methodology, and current interpretation are at
-<https://josiahwilson.me/projects/openwatertowers/>.
+![OpenWaterTowers map and verified-record preview](assets/current-preview.png)
 
 ## Goal
 
@@ -30,10 +29,20 @@ should answer simple public-interest questions:
 
 ## Current Records
 
-- City of Coeur d'Alene Industrial Standpipe near Hanley Ave and N Carrington
-  Ln. See the
-  [`Industrial Standpipe research coverage`](docs/INDUSTRIAL_STANDPIPE_RESEARCH.md)
-  log for captured facts, source classes checked, and known gaps.
+The first field-observed release contains seven records:
+
+- City of Coeur d'Alene Industrial Standpipe.
+- Hope Avenue Water Tower.
+- North Postfalls Standpipe.
+- Beck Road Standpipe.
+- Spokane Street Water Tower.
+- Ford Rock Tank.
+- Reilly Reservoirs.
+
+Each record separates verified public facts from observations and unresolved
+questions. See the
+[`Industrial Standpipe research coverage`](docs/INDUSTRIAL_STANDPIPE_RESEARCH.md)
+log for one example of the source classes checked and gaps preserved.
 
 ## Candidate Layer
 
